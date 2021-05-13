@@ -1,4 +1,5 @@
 const User = require('./user.model');
+const taskService = require('../task/task.service');
 
 const users = [];
 
@@ -26,10 +27,16 @@ const putById = async (newUser, id) => {
 };
 
 const deleteById = async (id) => {
-  // TODO: delete boards with user
-  users.splice(users.findIndex((user) => user.id === id), 1);
+  const idx = users.findIndex((user) => user.id === id);
+  if (idx !== -1) {
+    await taskService.deleteUser(id);
+    users.splice(idx, 1);
+    return new Promise((resolve) => {
+      resolve(204);
+    });
+  }
   return new Promise((resolve) => {
-    resolve(204);
+    resolve(404);
   });
 };
 

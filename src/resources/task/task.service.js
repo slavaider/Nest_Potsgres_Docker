@@ -10,4 +10,8 @@ const putById = (newUser, id) =>  tasksRepo.putById(newUser, id)
 
 const deleteById = (id)=>tasksRepo.deleteById(id)
 
-module.exports = { getAll, createTask, getById, putById, deleteById };
+const deleteUser = (id)=>tasksRepo.deleteUser(id)
+
+const deleteBoard = (id)=>tasksRepo.deleteBoard(id)
+
+module.exports = { getAll, createTask, getById, putById, deleteById,deleteUser ,deleteBoard};

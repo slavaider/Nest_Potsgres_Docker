@@ -1,4 +1,5 @@
-const Board = require("./board.model")
+const Board = require('./board.model');
+const taskService = require('../task/task.service');
 
 const boards = [];
 
@@ -13,9 +14,17 @@ const createBoard = async (board) => {
   });
 };
 
-const getById = async (id) => new Promise((resolve) => {
-  resolve(boards.find((board) => board.id === id));
-});
+const getById = async (id) => {
+  const idx = boards.findIndex((board) => board.id === id);
+  if (idx === -1) {
+    return new Promise((resolve) => {
+      resolve(404);
+    });
+  }
+  return new Promise((resolve) => {
+    resolve(boards[idx]);
+  });
+};
 
 const putById = async (newUser, id) => {
   const idx = boards.findIndex((board) => board.id === id);
@@ -26,7 +35,19 @@ const putById = async (newUser, id) => {
 };
 
 const deleteById = async (id) => {
-  boards.splice(boards.findIndex((board) => board.id === id), 1);
+  const idx = boards.findIndex((task) => task.id === id);
+  if (idx === -1) {
+    return new Promise((resolve) => {
+      resolve(404);
+    });
+  }
+  const res = await taskService.deleteBoard(id);
+  if(res === -1){
+    return new Promise((resolve) => {
+      resolve(404);
+    });
+  }
+  boards.splice(idx, 1);
   return new Promise((resolve) => {
     resolve(204);
   });

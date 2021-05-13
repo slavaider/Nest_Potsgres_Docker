@@ -6,27 +6,33 @@ const Task = require('./task.model');
 
 
 // GET ALL
-router.get('/', async (req, res) => {
+router.get('/boards/:boardId/tasks/', async (req, res) => {
   const tasks = await tasksService.getAll();
   res.json(tasks);
 });
 // POST
-router.post('/', async (req, res) => {
-  const task = await tasksService.createTask(new Task(req.body));
+router.post('/boards/:boardId/tasks/', async (req, res) => {
+  const newTask = {...req.body}
+  newTask.boardId = req.params.boardId
+  const task = await tasksService.createTask(new Task(newTask));
   res.status(201).json(task);
 });
 // GET ID
-router.get('/:id', async (req, res) => {
+router.get('/boards/:boardId/tasks/:id', async (req, res) => {
   const task = await tasksService.getById(req.params.id);
-  res.json(task);
+  if(task===404){
+    res.status(404).send();
+  }else{
+    res.json(task);
+  }
 });
 // PUT ID
-router.put('/:id', async (req, res) => {
+router.put('/boards/:boardId/tasks/:id', async (req, res) => {
   const task = await tasksService.putById(req.body, req.params.id);
   res.json(task);
 });
 // DELETE ID
-router.delete('/:id', async (req, res) => {
+router.delete('/boards/:boardId/tasks/:id', async (req, res) => {
   const status = await tasksService.deleteById(req.params.id);
   res.status(status).send();
 });
