@@ -1,14 +1,26 @@
-const {v4} = require('uuid');
+const { v4 } = require('uuid');
 
 class Task {
+
+  /**
+   *
+   * @param id
+   * @param title
+   * @param order
+   * @param description
+   * @param boardId
+   * @param userId
+   * @param columnId
+   * @returns model of Task
+   */
   constructor({
                 id = v4(),
-                title="title",
-                order=0,
-                description=null,
-                boardId=null,
-                userId=null,
-                columnId=null,
+                title = 'title',
+                order = 0,
+                description = null,
+                boardId = null,
+                userId = null,
+                columnId = null
               } = {}) {
     this.id = id;
     this.title = title;
