@@ -35,13 +35,13 @@ const getById = async (id) => {
 
 /**
  * Function to put Board by ID to im-memory list
- * @param newUser [new object to put in list]
+ * @param newBoard [new object to put in list]
  * @param id [id of needed object]
  * @returns {Promise<Board>} [new object of Board model]
  */
-const putById = async (newUser, id) => {
+const putById = async (newBoard, id) => {
   const idx = boards.findIndex((board) => board.id === id);
-  boards[idx] = new Board({ id, ...newUser });
+  boards[idx] = new Board({ id, ...newBoard });
   return boards[idx];
 };
 
