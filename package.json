@@ -13,7 +13,7 @@
     "lint": "tslint src/* --fix",
     "test": "cross-env DEBUG=rs:* jest --testMatch \"<rootDir>/test/e2e/test/*.test.js\" --noStackTrace --runInBand",
     "test:auth": "cross-env DEBUG=rs:* TEST_MODE=auth jest --noStackTrace",
-    "doc": "jsdoc src/ -d 'jsdoc'"
+    "doc": "jsdoc build/server.js -d 'jsdoc'"
   },
   "keywords": [
     "rs",
@@ -54,6 +54,7 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.11",
+    "@types/node": "^15.0.2",
     "@types/swagger-ui-express": "^4.1.2",
     "@types/uuid": "^8.3.0",
     "@types/yamljs": "^0.2.31",

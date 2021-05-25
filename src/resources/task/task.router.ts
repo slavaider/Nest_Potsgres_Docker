@@ -1,12 +1,12 @@
 import { Router } from 'express';
 import tasksService from './task.service';
 import Task from './task.model';
-
+// @ts-ignore
 const router = new Router();
 
 
 // GET ALL
-router.get('/boards/:boardId/tasks/', async (req, res) => {
+router.get('/boards/:boardId/tasks/', async (_req, res) => {
   const tasks = await tasksService.getAll();
   res.json(tasks);
 });

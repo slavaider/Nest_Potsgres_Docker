@@ -8,14 +8,14 @@ const boards: Board[] = [];
  * from im-memory boards list
  * @returns {Promise<Board[]>} [Boards list]
  */
-const getAll = async () => boards;
+const getAll = async (): Promise<Board[]> => boards;
 
 /**
  * Function to create board
  * @param board [object of Board model]
  * @returns {Promise<Board>} [return board back]
  */
-const createBoard = async (board: Board) => {
+const createBoard = async (board: Board): Promise<Board> => {
   boards.push(board);
   return board;
 };
@@ -25,7 +25,7 @@ const createBoard = async (board: Board) => {
  * @param id [id of Board from boards list]
  * @returns {Promise<number|Board>} [return status code 404 if not found, and Board if found]
  */
-const getById = async (id: string) => {
+const getById = async (id: string): Promise<number | Board | undefined> => {
   const idx = boards.findIndex((board) => board.id === id);
   if (idx === -1) {
     return 404;
@@ -44,7 +44,7 @@ const putById = async (newBoard: {
     title?: string | undefined;
     columns?: never[] | undefined;
   }
-  | undefined, id: string) => {
+  | undefined, id: string): Promise<Board | undefined> => {
   const idx = boards.findIndex((board) => board.id === id);
   boards[idx] = new Board({ id, ...newBoard });
   return boards[idx];
@@ -55,7 +55,7 @@ const putById = async (newBoard: {
  * @param id [id of needed object]
  * @returns {Promise<number>} [return 404 if object not found and 204 if successful deleted]
  */
-const deleteById = async (id: string) => {
+const deleteById = async (id: string): Promise<number> => {
   const idx = boards.findIndex((task) => task.id === id);
   if (idx === -1) {
     return 404;

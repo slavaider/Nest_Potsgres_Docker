@@ -2,12 +2,13 @@ import express from 'express';
 import swaggerUI from 'swagger-ui-express';
 import YAML from 'yamljs';
 // Routes
-const userRouter = require('./resources/users/user.router');
-const boardRouter = require('./resources/board/board.router');
-const taskRouter = require('./resources/task/task.router');
+import userRouter from './resources/users/user.router';
+import boardRouter from './resources/board/board.router';
+import taskRouter from './resources/task/task.router';
+import path from 'path';
 
 const app = express();
-const swaggerDocument = YAML.load(__dirname+ '../doc/api.yaml');
+const swaggerDocument = YAML.load(path.resolve(__dirname, '../doc/api.yaml'));
 
 app.use(express.json());
 

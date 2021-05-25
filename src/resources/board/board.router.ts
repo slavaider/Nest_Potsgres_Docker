@@ -2,11 +2,11 @@ import { Router } from 'express';
 import boardsService from './board.service';
 import Board from './board.model';
 import Column from '../column/column.model';
-
+// @ts-ignore
 const router = new Router();
 
 // GET ALL
-router.get('/', async (req, res) => {
+router.get('/', async (_req, res) => {
   const boards = await boardsService.getAll();
   res.json(boards);
 });

@@ -1,13 +1,20 @@
-const usersRepo = require('./user.memory.repository');
+import User from './user.model';
 
-const getAll = () =>usersRepo.getAll()
+import  usersRepo from './user.memory.repository';
 
-const createUser = (user) => usersRepo.createUser(user)
+const getAll = () => usersRepo.getAll();
 
-const getById = (id) => usersRepo.getById(id)
+const createUser = (user: User) => usersRepo.createUser(user);
 
-const putById = (newUser, id) =>  usersRepo.putById(newUser, id)
+const getById = (id: string):Promise<User|undefined> => usersRepo.getById(id);
 
-const deleteById = (id)=>usersRepo.deleteById(id)
+const putById = (newUser: {
+  id?: string | undefined;
+  name?: string | undefined;
+  login?: string | undefined;
+  password?: string | undefined;
+}, id: string) => usersRepo.putById(newUser, id);
 
-export default { getAll, createUser, getById, putById,deleteById };
+const deleteById = (id: string) => usersRepo.deleteById(id);
+
+export default { getAll, createUser, getById, putById, deleteById };

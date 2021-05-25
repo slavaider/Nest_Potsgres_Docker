@@ -1,10 +1,11 @@
 import {Router} from 'express';
 import User from './user.model';
+// @ts-ignore
 const router = new Router();
-const usersService = require('./user.service');
+import usersService from './user.service';
 
 // GET ALL
-router.get('/', async (req, res) => {
+router.get('/', async (_req, res) => {
   const users = await usersService.getAll();
   res.json(users.map(User.toResponse));
 });
@@ -16,12 +17,12 @@ router.post('/', async (req, res) => {
 // GET ID
 router.get('/:id', async (req, res) => {
   const user = await usersService.getById(req.params.id);
-  res.json(User.toResponse(user));
+  if(user) res.json(User.toResponse(user));
 });
 // PUT ID
 router.put('/:id', async (req, res) => {
   const user = await usersService.putById(req.body, req.params.id);
-  res.json(User.toResponse(user));
+  if(user) res.json(User.toResponse(user));
 });
 // DELETE ID
 router.delete('/:id', async (req, res) => {

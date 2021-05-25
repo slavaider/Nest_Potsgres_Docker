@@ -19,6 +19,7 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
+    "noImplicitAny": false,
     "forceConsistentCasingInFileNames": true
   },
   "exclude": [

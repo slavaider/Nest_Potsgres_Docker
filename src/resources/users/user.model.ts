@@ -1,5 +1,9 @@
 import {v4} from 'uuid'
 class User {
+  public id: string;
+  public name: string;
+  public login: string;
+  public password: string;
   /**
    *
    * @param id
@@ -20,7 +24,7 @@ class User {
     this.password = password;
   }
 
-  static toResponse(user) {
+  static toResponse(user:User) {
     const { id, name, login } = user;
     return { id, name, login };
   }
