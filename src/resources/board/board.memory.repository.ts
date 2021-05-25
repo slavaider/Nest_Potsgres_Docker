@@ -1,23 +1,23 @@
-const Board = require('./board.model');
-const taskService = require('../task/task.service');
+import taskService from '../task/task.service';
+import Board from './board.model';
 
-const boards = [];
+const boards: Board[] = [];
 
 /**
  * Function to get all Boards
  * from im-memory boards list
  * @returns {Promise<Board[]>} [Boards list]
  */
-const getAll = async () => boards
+const getAll = async () => boards;
 
 /**
  * Function to create board
  * @param board [object of Board model]
  * @returns {Promise<Board>} [return board back]
  */
-const createBoard = async (board) => {
+const createBoard = async (board: Board) => {
   boards.push(board);
-  return board
+  return board;
 };
 
 /**
@@ -25,7 +25,7 @@ const createBoard = async (board) => {
  * @param id [id of Board from boards list]
  * @returns {Promise<number|Board>} [return status code 404 if not found, and Board if found]
  */
-const getById = async (id) => {
+const getById = async (id: string) => {
   const idx = boards.findIndex((board) => board.id === id);
   if (idx === -1) {
     return 404;
@@ -39,7 +39,12 @@ const getById = async (id) => {
  * @param id [id of needed object]
  * @returns {Promise<Board>} [new object of Board model]
  */
-const putById = async (newBoard, id) => {
+const putById = async (newBoard: {
+    id?: string | undefined;
+    title?: string | undefined;
+    columns?: never[] | undefined;
+  }
+  | undefined, id: string) => {
   const idx = boards.findIndex((board) => board.id === id);
   boards[idx] = new Board({ id, ...newBoard });
   return boards[idx];
@@ -50,7 +55,7 @@ const putById = async (newBoard, id) => {
  * @param id [id of needed object]
  * @returns {Promise<number>} [return 404 if object not found and 204 if successful deleted]
  */
-const deleteById = async (id) => {
+const deleteById = async (id: string) => {
   const idx = boards.findIndex((task) => task.id === id);
   if (idx === -1) {
     return 404;
@@ -60,5 +65,5 @@ const deleteById = async (id) => {
   return 204;
 };
 
-module.exports = { getAll, createBoard, getById, putById, deleteById };
+export default { getAll, createBoard, getById, putById, deleteById };
 

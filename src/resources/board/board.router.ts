@@ -1,9 +1,9 @@
-const { Router } = require('express');
+import { Router } from 'express';
+import boardsService from './board.service';
+import Board from './board.model';
+import Column from '../column/column.model';
 
 const router = new Router();
-const boardsService = require('./board.service');
-const Board = require('./board.model');
-const Column = require('../column/column.model');
 
 // GET ALL
 router.get('/', async (req, res) => {
@@ -13,23 +13,27 @@ router.get('/', async (req, res) => {
 // POST
 router.post('/', async (req, res) => {
   const boardRaw = req.body;
-  boardRaw.columns = boardRaw.columns.map((col)=>new Column(col));
+  boardRaw.columns = boardRaw.columns.map((col) => new Column(col));
   const board = await boardsService.createBoard(new Board(boardRaw));
   res.status(201).json(board);
 });
 // GET ID
 router.get('/:id', async (req, res) => {
   const board = await boardsService.getById(req.params.id);
-  if(board===404){
+  if (board === 404) {
     res.status(404).send();
-  }else{
+  } else {
     res.json(board);
   }
 });
 // PUT ID
 router.put('/:id', async (req, res) => {
   const boardRaw = req.body;
-  boardRaw.columns = boardRaw.columns.map((col)=>new Column(col));
+  boardRaw.columns = boardRaw.columns.map((col: {
+    id?: string | undefined;
+    title?: string | undefined;
+    order?: number | undefined;
+  } | undefined) => new Column(col));
   const board = await boardsService.putById(boardRaw, req.params.id);
   res.json(board);
 });
@@ -39,4 +43,4 @@ router.delete('/:id', async (req, res) => {
   res.status(status).send();
 });
 
-module.exports = router;
+export default router;

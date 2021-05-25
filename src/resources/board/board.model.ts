@@ -1,6 +1,11 @@
-const {v4} = require('uuid');
+import {v4} from 'uuid';
+import Column from '../column/column.model';
 
 class Board {
+  public id: string;
+  public title: string;
+  public columns?: Column[];
+
   /**
    *
    * @param id
@@ -19,4 +24,4 @@ class Board {
   }
 }
 
-module.exports = Board;
+export default Board;
