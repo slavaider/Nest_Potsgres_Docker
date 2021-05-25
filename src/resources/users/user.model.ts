@@ -24,7 +24,7 @@ class User {
     this.password = password;
   }
 
-  static toResponse(user:User) {
+  static toResponse(user:User):{id:string,name:string,login:string} {
     const { id, name, login } = user;
     return { id, name, login };
   }

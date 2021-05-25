@@ -57,7 +57,7 @@ const putById = async (newTask: {
  * @param id [id of needed object]
  * @returns {Promise<number>} [return 404 if object not found and 204 if successful deleted]
  */
-const deleteById = async (id: string) => {
+const deleteById = async (id: string):Promise<number> => {
   const idx = tasks.findIndex((task) => task.id === id);
   if (idx === -1) {
     return 404;
