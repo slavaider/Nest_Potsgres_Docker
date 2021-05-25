@@ -2,8 +2,11 @@ import {v4} from 'uuid';
 
 class Column {
   public id: string;
+
   public title: string;
+
   public order: number;
+
   /**
    *
    * @param id

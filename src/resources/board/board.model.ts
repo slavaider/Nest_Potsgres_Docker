@@ -3,7 +3,9 @@ import Column from '../column/column.model';
 
 class Board {
   public id: string;
+
   public title: string;
+
   public columns?: Column[];
 
   /**

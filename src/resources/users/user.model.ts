@@ -1,9 +1,14 @@
 import {v4} from 'uuid'
+
 class User {
   public id: string;
+
   public name: string;
+
   public login: string;
+
   public password: string;
+
   /**
    *
    * @param id
