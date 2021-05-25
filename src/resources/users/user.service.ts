@@ -18,3 +18,4 @@ const putById = (newUser: {
 const deleteById = (id: string): Promise<number> => usersRepo.deleteById(id);
 
 export default { getAll, createUser, getById, putById, deleteById };
+
