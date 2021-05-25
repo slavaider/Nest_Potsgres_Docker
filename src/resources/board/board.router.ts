@@ -2,8 +2,8 @@ import { Router } from 'express';
 import boardsService from './board.service';
 import Board from './board.model';
 import Column from '../column/column.model';
-// @ts-ignore
-const router = new Router();
+
+const router = Router();
 
 // GET ALL
 router.get('/', async (_req, res) => {
@@ -19,11 +19,14 @@ router.post('/', async (req, res) => {
 });
 // GET ID
 router.get('/:id', async (req, res) => {
-  const board = await boardsService.getById(req.params.id);
-  if (board === 404) {
-    res.status(404).send();
-  } else {
-    res.json(board);
+  const { id } = req.params;
+  if (id) {
+    const board = await boardsService.getById(id);
+    if (board === 404) {
+      res.status(404).send();
+    } else {
+      res.json(board);
+    }
   }
 });
 // PUT ID
@@ -34,13 +37,19 @@ router.put('/:id', async (req, res) => {
     title?: string | undefined;
     order?: number | undefined;
   } | undefined) => new Column(col));
-  const board = await boardsService.putById(boardRaw, req.params.id);
-  res.json(board);
+  const { id } = req.params;
+  if (id) {
+    const board = await boardsService.putById(boardRaw, id);
+    res.json(board);
+  }
 });
 // DELETE ID
 router.delete('/:id', async (req, res) => {
-  const status = await boardsService.deleteById(req.params.id);
-  res.status(status).send();
+  const { id } = req.params;
+  if (id) {
+    const status = await boardsService.deleteById(id);
+    res.status(status).send();
+  }
 });
 
 export default router;

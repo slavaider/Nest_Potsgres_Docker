@@ -13,7 +13,7 @@
     "lint": "tslint src/* --fix",
     "test": "cross-env DEBUG=rs:* jest --testMatch \"<rootDir>/test/e2e/test/*.test.js\" --noStackTrace --runInBand",
     "test:auth": "cross-env DEBUG=rs:* TEST_MODE=auth jest --noStackTrace",
-    "doc": "jsdoc build/server.js -d 'jsdoc'"
+    "doc": "jsdoc build -d 'jsdoc'"
   },
   "keywords": [
     "rs",
