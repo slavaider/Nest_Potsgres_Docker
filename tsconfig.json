@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "baseUrl": "src",
+    "sourceRoot": "./src",
     "target": "es6",
     "sourceMap": true,
     "allowJs": false,
