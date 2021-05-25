@@ -21,14 +21,7 @@
         }
     },
     "extends": [
-        "plugin:node/recommended",
-        "eslint:recommended",
-        "plugin:@typescript-eslint/recommended",
-        "airbnb-base",
-        "prettier",
-        "plugin:import/errors",
-        "plugin:import/warnings",
-        "plugin:import/typescript"
+        "plugin:@typescript-eslint/recommended"
     ],
     "plugins": [
         "@typescript-eslint"
