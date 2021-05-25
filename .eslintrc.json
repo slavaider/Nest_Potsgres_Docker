@@ -21,7 +21,7 @@
     "noInlineConfig": true,
     "node": {
       "resolvePaths": [
-        "/src"
+        "./src"
       ],
       "tryExtensions": [
         ".js",
