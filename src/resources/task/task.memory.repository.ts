@@ -70,7 +70,7 @@ const deleteById = async (id:string) => {
  * @returns {Promise<number>} [return 404 if object not found and 204 if successful deleted]
  */
 const deleteUser = async (id:string) => {
-  let idx = -1;
+  let idx = null;
   tasks = tasks.map(task => {
     if (task.userId === id) {
       const copy = { ...task };
@@ -80,7 +80,7 @@ const deleteUser = async (id:string) => {
     }
     return task;
   });
-  if (idx === -1) {
+  if (idx === null) {
     return 404;
   }
   return 204;
