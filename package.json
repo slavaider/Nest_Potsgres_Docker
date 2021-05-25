@@ -10,7 +10,7 @@
   "main": "src/server.ts",
   "scripts": {
     "start": "tsc && nodemon build/server.js",
-    "lint": "tslint src/* --fix",
+    "lint": "eslint src/* --fix",
     "test": "cross-env DEBUG=rs:* jest --testMatch \"<rootDir>/test/e2e/test/*.test.js\" --noStackTrace --runInBand",
     "test:auth": "cross-env DEBUG=rs:* TEST_MODE=auth jest --noStackTrace",
     "doc": "jsdoc build -d 'jsdoc'"
@@ -58,9 +58,14 @@
     "@types/swagger-ui-express": "^4.1.2",
     "@types/uuid": "^8.3.0",
     "@types/yamljs": "^0.2.31",
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
     "chai": "4.3.4",
     "debug": "4.3.1",
     "dirty-chai": "2.0.1",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.3",
     "husky": "4.3.8",
     "jest": "26.6.3",
     "jsdoc": "^3.6.7",
