@@ -1,7 +1,13 @@
-const { v4 } = require('uuid');
+import {v4} from 'uuid';
 
 class Task {
-
+  public id: string;
+  public title: string;
+  public order: number;
+  public description: string | null;
+  public boardId: string | null;
+  public userId: string | null;
+  public columnId: string | null;
   /**
    *
    * @param id
@@ -32,4 +38,4 @@ class Task {
   }
 }
 
-module.exports = Task;
+export default Task;

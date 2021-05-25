@@ -10,4 +10,4 @@ const putById = (newUser, id) =>  usersRepo.putById(newUser, id)
 
 const deleteById = (id)=>usersRepo.deleteById(id)
 
-module.exports = { getAll, createUser, getById, putById,deleteById };
+export default { getAll, createUser, getById, putById,deleteById };

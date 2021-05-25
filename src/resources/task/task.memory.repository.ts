@@ -1,6 +1,6 @@
-const Task = require('./task.model');
+import Task from './task.model'
 
-let tasks = [];
+let tasks:Task[] = [];
 
 /**
  * Function to get all Tasks
@@ -14,7 +14,7 @@ const getAll = async () => tasks;
  * @param task [object of Task model]
  * @returns {Promise<Task>} [return task back]
  */
-const createTask = async (task) => {
+const createTask = async (task:Task) => {
   tasks.push(task);
   return task;
 };
@@ -24,7 +24,7 @@ const createTask = async (task) => {
  * @param id [id of Task from tasks list]
  * @returns {Promise<number|Task>} [return status code 404 if not found, and Task if found]
  */
-const getById = async (id) => {
+const getById = async (id:string) => {
   const idx = tasks.findIndex((task) => task.id === id);
   if (idx === -1) {
     return 404;
@@ -38,7 +38,14 @@ const getById = async (id) => {
  * @param id [id of needed object]
  * @returns {Promise<Task>} [new object of Task model]
  */
-const putById = async (newTask, id) => {
+const putById = async (newTask: { id?: string | undefined;
+title?: string | undefined;
+order?: number | undefined;
+description?: null | undefined;
+boardId?: null | undefined;
+userId?: null | undefined;
+columnId?: null | undefined;
+} | undefined, id: string) => {
   const idx = tasks.findIndex((task) => task.id === id);
   tasks[idx] = new Task({ id, ...newTask });
   return tasks[idx];
@@ -49,7 +56,7 @@ const putById = async (newTask, id) => {
  * @param id [id of needed object]
  * @returns {Promise<number>} [return 404 if object not found and 204 if successful deleted]
  */
-const deleteById = async (id) => {
+const deleteById = async (id:string) => {
   const idx = tasks.findIndex((task) => task.id === id);
   if (idx === -1) {
     return 404;
@@ -62,7 +69,7 @@ const deleteById = async (id) => {
  * @param id [id of User]
  * @returns {Promise<number>} [return 404 if object not found and 204 if successful deleted]
  */
-const deleteUser = async (id) => {
+const deleteUser = async (id:string) => {
   let idx = -1;
   tasks = tasks.map(task => {
     if (task.userId === id) {
@@ -83,7 +90,7 @@ const deleteUser = async (id) => {
  * @param id [id of board]
  * @returns {Promise<number>} [return status 204 of successful deleted]
  */
-const deleteBoard = async (id) => {
+const deleteBoard = async (id:string) => {
   tasks = tasks.filter(task => {
     if (task.boardId === id) {
       return false;
@@ -92,5 +99,5 @@ const deleteBoard = async (id) => {
   });
   return 204;
 };
-module.exports = { getAll, createTask, getById, putById, deleteById, deleteUser, deleteBoard };
+export default { getAll, createTask, getById, putById, deleteById, deleteUser, deleteBoard };
 

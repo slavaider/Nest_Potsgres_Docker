@@ -1,7 +1,6 @@
-const { Router } = require('express');
-
+import {Router} from 'express';
+import User from './user.model';
 const router = new Router();
-const User = require('./user.model');
 const usersService = require('./user.service');
 
 // GET ALL
@@ -30,5 +29,4 @@ router.delete('/:id', async (req, res) => {
   res.status(status).send();
 });
 
-
-module.exports = router;
+export default router

@@ -1,5 +1,5 @@
-const User = require('./user.model');
-const taskService = require('../task/task.service');
+import  User from './user.model'
+import taskService from '../task/task.service';
 
 const users = [];
 
@@ -54,4 +54,4 @@ const deleteById = async (id) => {
   return 404
 };
 
-module.exports = { getAll, createUser, getById, putById, deleteById };
+export default { getAll, createUser, getById, putById, deleteById };

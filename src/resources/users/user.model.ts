@@ -1,5 +1,4 @@
-const { v4 } = require('uuid');
-
+import {v4} from 'uuid'
 class User {
   /**
    *
@@ -26,5 +25,4 @@ class User {
     return { id, name, login };
   }
 }
-
-module.exports = User;
+export default User
