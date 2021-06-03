@@ -1,12 +1,16 @@
-import { NextFunction, Request, Response } from 'express';
+import { log } from './winston-logger';
+import { NextFunction,Response,Request } from 'express';
 
-export const errorHandler = (err: Error, req: Request, res: Response, next: NextFunction): void => {
-  process.stderr.write(`Error: ${err.message}\n`);
-  if (Object.prototype.hasOwnProperty.call(req, 'url')) {
-    if (res.headersSent) {
-      return next(err);
-    }
-    res.status(500);
-    res.render('error', { error: err });
-  }
-};
+
+export function customErrorHandler(err: Error, errorType:string | Promise<never>): void{
+ if(errorType instanceof Promise){
+   log.error(`[unhandledRejection] ${err}`);
+ }else{
+    log.error(`[${errorType}] ${err.message}`);
+ }
+}
+
+export function errorHandler(err:Error,_req:Request, res:Response, _next:NextFunction):void {
+  log.error(`[${err.name}] ${err.message}`);
+  res.status(500).render('error',{err});
+}
