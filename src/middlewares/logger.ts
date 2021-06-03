@@ -1,10 +1,15 @@
 import { NextFunction, Request, Response } from 'express';
+import { log } from './winston-logger';
 
-export const logger = (req: Request, _res: Response, next: NextFunction): void => {
-  console.log('URL', req.url);
-  console.log('STATUS_CODE', req.statusCode);
-  console.log('QUERY PARAMS', req.query);
-  console.log('BODY', req.body);
-  console.log('--------------');
+
+
+export const logger = (req: Request, res: Response, next: NextFunction): void => {
+  log.info(JSON.stringify({
+    URL: req.url,
+    STATUS: res.statusCode,
+    QUERY: req.query,
+    PARAMS: req.params,
+    BODY: req.body
+  }));
   next();
 };
