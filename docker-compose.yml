@@ -1,0 +1,28 @@
+version: "3"
+services:
+  node:
+    build:
+      context: .
+    ports:
+      - ${PORT}:${PORT}
+    depends_on:
+      - postgres
+    restart: on-failure
+    environment:
+      - PORT=4000
+    volumes:
+      - ./src:/usr/app/src
+      - ./combined.log:/usr/app/combined.log
+      - ./error.log:/usr/app/error.log
+  postgres:
+    build: ./database
+    restart: on-failure
+    ports:
+      - ${POSTGRES_PORT}:${POSTGRES_PORT}
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+networks:
+  default:
+    name: myNet
