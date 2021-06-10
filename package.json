@@ -9,11 +9,13 @@
   "description": "REST service starter for RS School",
   "main": "src/server.ts",
   "scripts": {
-    "start": "tsc && nodemon build/server.js",
+    "start": "nodemon --exitcrash -L",
     "lint": "eslint src --fix",
     "test": "cross-env DEBUG=rs:* jest --testMatch \"<rootDir>/test/e2e/test/*.test.js\" --noStackTrace --runInBand",
     "test:auth": "cross-env DEBUG=rs:* TEST_MODE=auth jest --noStackTrace",
-    "doc": "tsc && jsdoc build -d 'jsdoc' -c conf.json&&open-cli jsdoc/index.html"
+    "doc": "tsc && jsdoc build -d 'jsdoc' -c conf.json&&open-cli jsdoc/index.html",
+    "docker-start": "docker-compose up",
+    "docker-build": "docker-compose up --build"
   },
   "keywords": [
     "rs",
