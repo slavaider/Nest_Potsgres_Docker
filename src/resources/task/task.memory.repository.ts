@@ -1,4 +1,4 @@
-import Task from './task.model';
+import Task from '../../entity/task.model';
 
 let tasks: Task[] = [];
 
@@ -24,7 +24,7 @@ const createTask = async (task: Task): Promise<Task> => {
  * @param id [id of Task from tasks list]
  * @returns {Promise<number|Task>} [return status code 404 if not found, and Task if found]
  */
-const getById = async (id: string): Promise<number | Task | undefined> => {
+const getById = async (id: number): Promise<number | Task | undefined> => {
   const idx = tasks.findIndex((task) => task.id === id);
   if (idx === -1) {
     return 404;
@@ -38,17 +38,9 @@ const getById = async (id: string): Promise<number | Task | undefined> => {
  * @param id [id of needed object]
  * @returns {Promise<Task>} [new object of Task model]
  */
-const putById = async (newTask: {
-  id?: string | undefined;
-  title?: string | undefined;
-  order?: number | undefined;
-  description?: null | undefined;
-  boardId?: null | undefined;
-  userId?: null | undefined;
-  columnId?: null | undefined;
-} | undefined, id: string): Promise<Task | undefined> => {
+const putById = async (newTask:Task, id: number): Promise<Task | undefined> => {
   const idx = tasks.findIndex((task) => task.id === id);
-  tasks[idx] = new Task({ id, ...newTask });
+  tasks[idx] = { id, ...newTask };
   return tasks[idx];
 };
 
@@ -57,7 +49,7 @@ const putById = async (newTask: {
  * @param id [id of needed object]
  * @returns {Promise<number>} [return 404 if object not found and 204 if successful deleted]
  */
-const deleteById = async (id: string):Promise<number> => {
+const deleteById = async (id: number):Promise<number> => {
   const idx = tasks.findIndex((task) => task.id === id);
   if (idx === -1) {
     return 404;
@@ -70,13 +62,13 @@ const deleteById = async (id: string):Promise<number> => {
  * @param id [id of User]
  * @returns {Promise<number>} [return 404 if object not found and 204 if successful deleted]
  */
-const deleteUser = async (id: string): Promise<number> => {
-  let idx: null | string = null;
+const deleteUser = async (id: number): Promise<number> => {
+  let idx: number | null = null;
   tasks = tasks.map(task => {
     if (task.userId === id) {
       const copy = { ...task };
       copy.userId = null;
-      idx = task.id;
+      idx = Number(task.id);
       return copy;
     }
     return task;
@@ -91,7 +83,7 @@ const deleteUser = async (id: string): Promise<number> => {
  * @param id [id of board]
  * @returns {Promise<number>} [return status 204 of successful deleted]
  */
-const deleteBoard = async (id: string): Promise<number> => {
+const deleteBoard = async (id: number): Promise<number> => {
   tasks = tasks.filter(task => {
     if (task.boardId === id) {
       return false;

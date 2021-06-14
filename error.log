@@ -1,0 +1,11 @@
+error:[unhandledRejection] MissingDriverError: Wrong driver: "postgresql" given. Supported drivers are: "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "oracle", "postgres", "sqlite", "better-sqlite3", "sqljs", "react-native", "aurora-data-api", "aurora-data-api-pg".
+error:[unhandledRejection] MissingDriverError: Wrong driver: "postgresql" given. Supported drivers are: "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "oracle", "postgres", "sqlite", "better-sqlite3", "sqljs", "react-native", "aurora-data-api", "aurora-data-api-pg".
+error:[unhandledRejection] MissingDriverError: Wrong driver: "postgresql" given. Supported drivers are: "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "oracle", "postgres", "sqlite", "better-sqlite3", "sqljs", "react-native", "aurora-data-api", "aurora-data-api-pg".
+error:[unhandledRejection] DriverPackageNotInstalledError: Postgres package has not been found installed. Try to install it: npm install pg --save
+error:[unhandledRejection] Error: connect ECONNREFUSED 127.0.0.1:5432
+error:[unhandledRejection] Error: connect ECONNREFUSED 127.0.0.1:5432
+error:[unhandledRejection] DataTypeNotSupportedError: Data type "Object" in "Board.title" is not supported by "postgres" database.
+error:[unhandledRejection] DataTypeNotSupportedError: Data type "Array" in "Board.columns" is not supported by "postgres" database.
+error:[unhandledRejection] Error: Entity metadata for Board#columns was not found. Check if you specified a correct entity object and if it's connected in the connection options.
+error:[unhandledRejection] QueryFailedError: invalid input syntax for type integer: "d45832b1-aac8-4bc6-afe8-4107ccca1b3a"
+error:[unhandledRejection] MissingPrimaryColumnError: Entity "TaskColumn" does not have a primary column. Primary column is required to have in all your entities. Use @PrimaryColumn decorator to add a primary column to your entity.

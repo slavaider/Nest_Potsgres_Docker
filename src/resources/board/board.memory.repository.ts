@@ -1,5 +1,5 @@
 import taskService from '../task/task.service';
-import Board from './board.model';
+import Board from '../../entity/board.model';
 
 const boards: Board[] = [];
 
@@ -25,7 +25,7 @@ const createBoard = async (board: Board): Promise<Board> => {
  * @param id [id of Board from boards list]
  * @returns {Promise<number|Board>} [return status code 404 if not found, and Board if found]
  */
-const getById = async (id: string): Promise<number | Board | undefined> => {
+const getById = async (id: number): Promise<number | Board | undefined> => {
   const idx = boards.findIndex((board) => board.id === id);
   if (idx === -1) {
     return 404;
@@ -39,14 +39,9 @@ const getById = async (id: string): Promise<number | Board | undefined> => {
  * @param id [id of needed object]
  * @returns {Promise<Board>} [new object of Board model]
  */
-const putById = async (newBoard: {
-    id?: string | undefined;
-    title?: string | undefined;
-    columns?: never[] | undefined;
-  }
-  | undefined, id: string): Promise<Board | undefined> => {
+const putById = async (newBoard: Board, id: number): Promise<Board | undefined> => {
   const idx = boards.findIndex((board) => board.id === id);
-  boards[idx] = new Board({ id, ...newBoard });
+  boards[idx] = { title: newBoard?.title, id, ...newBoard };
   return boards[idx];
 };
 
@@ -55,7 +50,7 @@ const putById = async (newBoard: {
  * @param id [id of needed object]
  * @returns {Promise<number>} [return 404 if object not found and 204 if successful deleted]
  */
-const deleteById = async (id: string): Promise<number> => {
+const deleteById = async (id: number): Promise<number> => {
   const idx = boards.findIndex((task) => task.id === id);
   if (idx === -1) {
     return 404;

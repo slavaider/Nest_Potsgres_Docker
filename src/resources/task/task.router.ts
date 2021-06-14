@@ -1,6 +1,5 @@
 import { Router } from 'express';
 import tasksService from './task.service';
-import Task from './task.model';
 
 const router = Router();
 
@@ -15,14 +14,14 @@ router.post('/boards/:boardId/tasks/', async (req, res) => {
   const newTask = { ...req.body };
   const { boardId } = req.params;
   newTask.boardId = boardId;
-  const task = await tasksService.createTask(new Task(newTask));
+  const task = await tasksService.createTask(newTask);
   res.status(201).json(task);
 });
 // GET ID
 router.get('/boards/:boardId/tasks/:id', async (req, res) => {
   const { id } = req.params;
   if (id) {
-    const task = await tasksService.getById(id);
+    const task = await tasksService.getById(Number(id));
     if (task === 404) {
       res.status(404).send();
     } else {
@@ -34,7 +33,7 @@ router.get('/boards/:boardId/tasks/:id', async (req, res) => {
 router.put('/boards/:boardId/tasks/:id', async (req, res) => {
   const { id } = req.params;
   if (id) {
-    const task = await tasksService.putById(req.body, id);
+    const task = await tasksService.putById(req.body, Number(id));
     res.json(task);
   }
 });
@@ -42,7 +41,7 @@ router.put('/boards/:boardId/tasks/:id', async (req, res) => {
 router.delete('/boards/:boardId/tasks/:id', async (req, res) => {
   const { id } = req.params;
   if (id) {
-    const status = await tasksService.deleteById(id);
+    const status = await tasksService.deleteById(Number(id));
     res.status(status).send();
   }
 });

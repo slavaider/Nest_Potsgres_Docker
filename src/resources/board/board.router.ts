@@ -1,7 +1,5 @@
 import { Router } from 'express';
 import boardsService from './board.service';
-import Board from './board.model';
-import Column from '../column/column.model';
 
 const router = Router();
 
@@ -13,15 +11,15 @@ router.get('/', async (_req, res) => {
 // POST
 router.post('/', async (req, res) => {
   const boardRaw = req.body;
-  boardRaw.columns = boardRaw.columns.map((col) => new Column(col));
-  const board = await boardsService.createBoard(new Board(boardRaw));
+  boardRaw.columns = boardRaw.columns.map((col) => col);
+  const board = await boardsService.createBoard(boardRaw);
   res.status(201).json(board);
 });
 // GET ID
 router.get('/:id', async (req, res) => {
   const { id } = req.params;
   if (id) {
-    const board = await boardsService.getById(id);
+    const board = await boardsService.getById(Number(id));
     if (board === 404) {
       res.status(404).send();
     } else {
@@ -32,14 +30,10 @@ router.get('/:id', async (req, res) => {
 // PUT ID
 router.put('/:id', async (req, res) => {
   const boardRaw = req.body;
-  boardRaw.columns = boardRaw.columns.map((col: {
-    id?: string | undefined;
-    title?: string | undefined;
-    order?: number | undefined;
-  } | undefined) => new Column(col));
+  boardRaw.columns = boardRaw.columns.map(col=>col);
   const { id } = req.params;
   if (id) {
-    const board = await boardsService.putById(boardRaw, id);
+    const board = await boardsService.putById(boardRaw, Number(id));
     res.json(board);
   }
 });
@@ -47,7 +41,7 @@ router.put('/:id', async (req, res) => {
 router.delete('/:id', async (req, res) => {
   const { id } = req.params;
   if (id) {
-    const status = await boardsService.deleteById(id);
+    const status = await boardsService.deleteById(Number(id));
     res.status(status).send();
   }
 });

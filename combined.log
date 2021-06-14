@@ -1,0 +1,16 @@
+LOG:[unhandledRejection] MissingDriverError: Wrong driver: "postgresql" given. Supported drivers are: "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "oracle", "postgres", "sqlite", "better-sqlite3", "sqljs", "react-native", "aurora-data-api", "aurora-data-api-pg".
+LOG:[unhandledRejection] MissingDriverError: Wrong driver: "postgresql" given. Supported drivers are: "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "oracle", "postgres", "sqlite", "better-sqlite3", "sqljs", "react-native", "aurora-data-api", "aurora-data-api-pg".
+LOG:[unhandledRejection] MissingDriverError: Wrong driver: "postgresql" given. Supported drivers are: "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "oracle", "postgres", "sqlite", "better-sqlite3", "sqljs", "react-native", "aurora-data-api", "aurora-data-api-pg".
+LOG:[unhandledRejection] DriverPackageNotInstalledError: Postgres package has not been found installed. Try to install it: npm install pg --save
+LOG:[unhandledRejection] Error: connect ECONNREFUSED 127.0.0.1:5432
+LOG:{"URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/favicon.ico","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error: connect ECONNREFUSED 127.0.0.1:5432
+LOG:[unhandledRejection] DataTypeNotSupportedError: Data type "Object" in "Board.title" is not supported by "postgres" database.
+LOG:[unhandledRejection] DataTypeNotSupportedError: Data type "Array" in "Board.columns" is not supported by "postgres" database.
+LOG:[unhandledRejection] Error: Entity metadata for Board#columns was not found. Check if you specified a correct entity object and if it's connected in the connection options.
+LOG:[unhandledRejection] QueryFailedError: invalid input syntax for type integer: "d45832b1-aac8-4bc6-afe8-4107ccca1b3a"
+LOG:[unhandledRejection] MissingPrimaryColumnError: Entity "TaskColumn" does not have a primary column. Primary column is required to have in all your entities. Use @PrimaryColumn decorator to add a primary column to your entity.
+LOG:{"URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
