@@ -9,3 +9,32 @@ error:[unhandledRejection] DataTypeNotSupportedError: Data type "Array" in "Boar
 error:[unhandledRejection] Error: Entity metadata for Board#columns was not found. Check if you specified a correct entity object and if it's connected in the connection options.
 error:[unhandledRejection] QueryFailedError: invalid input syntax for type integer: "d45832b1-aac8-4bc6-afe8-4107ccca1b3a"
 error:[unhandledRejection] MissingPrimaryColumnError: Entity "TaskColumn" does not have a primary column. Primary column is required to have in all your entities. Use @PrimaryColumn decorator to add a primary column to your entity.
+error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+error:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
+error:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
+error:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
+error:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
+error:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
+error:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
+error:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
+error:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
+error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+error:[unhandledRejection] QueryFailedError: column "boardId" of relation "board" does not exist
+error:[unhandledRejection] TypeError: Cannot read property 'id' of undefined
+error:[unhandledRejection] EntityColumnNotFound: No entity column "boardId" was found.
+error:[unhandledRejection] TypeError: Cannot read property 'id' of undefined
+error:[unhandledRejection] DataTypeNotSupportedError: Data type "Object" in "Task.userId" is not supported by "postgres" database.
+error:[unhandledRejection] QueryFailedError: column "boardId" of relation "task" contains null values
+error:[unhandledRejection] QueryFailedError: column "boardId" of relation "board" does not exist
+error:[unhandledRejection] TypeError: Cannot read property 'id' of undefined
+error:[unhandledRejection] TypeError: Cannot read property 'id' of undefined

@@ -1,4 +1,4 @@
-import { Column, Entity, OneToOne, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
 import Board from './board.model';
 import TaskColumn from './column.model';
 import User from './user.model';
@@ -13,13 +13,12 @@ class Task {
   order?: number = 0;
   @Column()
   description?: string;
-  @OneToOne(() => Board,board=>board.id)
+  @OneToMany(() => Board,board=>board.id)
   boardId?: Board;
-  @OneToOne(() => User,user=>user.id)
+  @OneToMany(() => User,user=>user.id)
   userId?: User | null;
-  @OneToOne(() => TaskColumn,column=>column.id)
+  @OneToMany(() => TaskColumn,column=>column.id)
   columnId?: TaskColumn;
-
 }
 
 export default Task;

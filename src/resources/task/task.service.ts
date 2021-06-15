@@ -11,8 +11,8 @@ const putById = (newTask:Task, id: number):Promise<Task | undefined>  => tasksRe
 
 const deleteById = (id: number):Promise<number> => tasksRepo.deleteById(id);
 
-const deleteUser = (id: number):Promise<number> => tasksRepo.deleteUser(id);
+const deleteUser = (id: number):Promise<void> => tasksRepo.deleteUser(id);
 
-const deleteBoard = (id: number):Promise<number> => tasksRepo.deleteBoard(id);
+const deleteBoard = (id: number):Promise<void> => tasksRepo.deleteBoard(id);
 
 export default { getAll, createTask, getById, putById, deleteById, deleteUser, deleteBoard };

@@ -4,7 +4,7 @@ import usersService from './user.service';
 
 const router = Router();
 function toResponse(user:User){
-  return {id:user.id,name:user.name,email:user.login}
+  return {id:user.id?.toString(),name:user.name,login:user.login}
 }
 // GET ALL
 router.get('/', async (_req, res) => {

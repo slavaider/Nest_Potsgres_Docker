@@ -14,3 +14,532 @@ LOG:[unhandledRejection] MissingPrimaryColumnError: Entity "TaskColumn" does not
 LOG:{"URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
 LOG:{"URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
 LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum"}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum"}}
+LOG:{"URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"undefined","columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #5","order":5,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #4","order":4,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #3","order":3,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #5","order":5,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #3","order":3,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #4","order":4,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"undefined","columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #3","order":3,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #4","order":4,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #5","order":5,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"undefined","columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+LOG:{"URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
+LOG:{"URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/3","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":3}}
+LOG:{"URL":"/users/3","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/4","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":5}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":5}}
+LOG:{"URL":"/users/5","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #3","order":3,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #4","order":4,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #5","order":5,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"undefined","columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/8","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":8}}
+LOG:{"URL":"/users/8","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/9","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":10}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":10}}
+LOG:{"URL":"/users/10","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #4","order":4,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #3","order":3,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #5","order":5,"description":"Lorem ipsum","userId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"undefined","columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users/1","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/14","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":14}}
+LOG:{"URL":"/users/14","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/15","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":16}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":16}}
+LOG:{"URL":"/users/16","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users/1","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/19","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users/19","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/20","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users/20","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/22","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"22"}}
+LOG:{"URL":"/users/22","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/24","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"25"}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"25"}}
+LOG:{"URL":"/users/25","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/26","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"26"}}
+LOG:{"URL":"/users/26","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/28","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"28"}}
+LOG:{"URL":"/users/28","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/29","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"29"}}
+LOG:{"URL":"/users/29","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/30","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users/30","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/32","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"32"}}
+LOG:{"URL":"/users/32","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/33","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"34"}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"34"}}
+LOG:{"URL":"/users/34","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/39","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users/39","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/41","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"41"}}
+LOG:{"URL":"/users/41","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/42","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"43"}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"43"}}
+LOG:{"URL":"/users/43","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/44","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users/44","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/46","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"46"}}
+LOG:{"URL":"/users/46","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/47","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"48"}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"48"}}
+LOG:{"URL":"/users/48","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/49","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users/49","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/50","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/51","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"51"}}
+LOG:{"URL":"/users/51","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users/51","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/52","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"53"}}
+LOG:{"URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"53"}}
+LOG:{"URL":"/users/53","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/54","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users/54","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/55","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/56","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"56"}}
+LOG:{"URL":"/users/56","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users/56","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/57","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/1/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"58","boardId":1}}
+LOG:{"URL":"/boards/1/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"58","boardId":1}}
+LOG:{"URL":"/users/58","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/1/tasks/1","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/2","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/4","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"id":4,"title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[unhandledRejection] QueryFailedError: column "boardId" of relation "board" does not exist
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/5","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/5","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] TypeError: Cannot read property 'id' of undefined
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/6/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":6,"userId":null,"columnId":null}}
+LOG:{"URL":"/boards/6/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":6,"userId":null,"columnId":null}}
+LOG:{"URL":"/boards/6/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":6,"userId":null,"columnId":null}}
+LOG:{"URL":"/boards/6/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":6,"userId":null,"columnId":null}}
+LOG:{"URL":"/boards/6/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":6,"userId":null,"columnId":null}}
+LOG:{"URL":"/boards/6/tasks/3","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/6/tasks/6","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/6/tasks/4","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/6/tasks/7","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/6/tasks/5","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/2","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/7/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"URL":"/boards/7/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/7/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/1","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/7/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"URL":"/boards/7/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"URL":"/boards/7/tasks/10","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"id":10,"order":0,"title":"Autotest updated task","description":"Lorem ipsum","boardId":7,"userId":null,"columnId":null}}
+LOG:[unhandledRejection] EntityColumnNotFound: No entity column "boardId" was found.
+LOG:{"URL":"/boards/7/tasks/8","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/7/tasks/8","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/7/tasks/8","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] TypeError: Cannot read property 'id' of undefined
+LOG:{"URL":"/boards/7","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/8/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"59","boardId":8}}
+LOG:{"URL":"/boards/8/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"59","boardId":8}}
+LOG:{"URL":"/users/59","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/8/tasks/12","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] DataTypeNotSupportedError: Data type "Object" in "Task.userId" is not supported by "postgres" database.
+LOG:[unhandledRejection] QueryFailedError: column "boardId" of relation "task" contains null values
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/9/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"60","boardId":9}}
+LOG:{"URL":"/boards/9/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"60","boardId":9}}
+LOG:{"URL":"/users/60","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/9/tasks/13","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/10/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"61","boardId":10}}
+LOG:{"URL":"/boards/10/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"61","boardId":10}}
+LOG:{"URL":"/users/61","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/10/tasks/15","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/11/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"62","boardId":11}}
+LOG:{"URL":"/boards/11/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"62","boardId":11}}
+LOG:{"URL":"/users/62","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/11/tasks/18","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/12","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/14","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"id":14,"title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[unhandledRejection] QueryFailedError: column "boardId" of relation "board" does not exist
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/15","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/15","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] TypeError: Cannot read property 'id' of undefined
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/16/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":16,"userId":null,"columnId":null}}
+LOG:{"URL":"/boards/16/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":16,"userId":null,"columnId":null}}
+LOG:{"URL":"/boards/16/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":16,"userId":null,"columnId":null}}
+LOG:{"URL":"/boards/16/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":16,"userId":null,"columnId":null}}
+LOG:{"URL":"/boards/16/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":16,"userId":null,"columnId":null}}
+LOG:{"URL":"/boards/16/tasks/19","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/16/tasks/21","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/16/tasks/20","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/16/tasks/22","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/16/tasks/23","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/12","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/17/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"URL":"/boards/17/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/17/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/undefined/tasks/1","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/17/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"URL":"/boards/17/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"URL":"/boards/undefined/tasks/26","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"id":26,"order":0,"title":"Autotest updated task","description":"Lorem ipsum"}}
+LOG:{"URL":"/boards/undefined/tasks/26","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/17/tasks/24","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/17/tasks/24","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/17/tasks/24","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] TypeError: Cannot read property 'id' of undefined
+LOG:{"URL":"/boards/17","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/63","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users/63","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/64","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/65","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"65"}}
+LOG:{"URL":"/users/65","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users/65","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/users/66","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"URL":"/boards/18/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"67","boardId":18}}
+LOG:{"URL":"/boards/18/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"67","boardId":18}}
+LOG:{"URL":"/users/67","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"URL":"/boards/18/tasks/27","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
