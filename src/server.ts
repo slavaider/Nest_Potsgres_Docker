@@ -1,10 +1,11 @@
-import config from './common/config';
+import env_config from './common/config';
 import app from './app';
 import { createConnection } from 'typeorm';
 
-app.listen(config.PORT, (): void => {
-  console.log(`App is running on http://localhost:${config.PORT}`);
-  createConnection().then(()=>{
+
+app.listen(env_config.PORT, (): void => {
+  console.log(`App is running on http://localhost:${env_config.PORT}`);
+  createConnection().then(async () => {
     console.log('Connected to Typeorm');
   });
 });

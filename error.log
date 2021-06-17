@@ -1,40 +1,178 @@
-error:[unhandledRejection] MissingDriverError: Wrong driver: "postgresql" given. Supported drivers are: "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "oracle", "postgres", "sqlite", "better-sqlite3", "sqljs", "react-native", "aurora-data-api", "aurora-data-api-pg".
-error:[unhandledRejection] MissingDriverError: Wrong driver: "postgresql" given. Supported drivers are: "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "oracle", "postgres", "sqlite", "better-sqlite3", "sqljs", "react-native", "aurora-data-api", "aurora-data-api-pg".
-error:[unhandledRejection] MissingDriverError: Wrong driver: "postgresql" given. Supported drivers are: "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "oracle", "postgres", "sqlite", "better-sqlite3", "sqljs", "react-native", "aurora-data-api", "aurora-data-api-pg".
-error:[unhandledRejection] DriverPackageNotInstalledError: Postgres package has not been found installed. Try to install it: npm install pg --save
+error:[unhandledRejection] Error: getaddrinfo ENOTFOUND postgres
+error:[unhandledRejection] EntityColumnNotFound: No entity column "columns" was found.
+error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
+src/migration/1623855758841-UserMigration.ts(5,21): error TS6133: 'queryRunner' is declared but its value is never read.
+src/migration/1623855758841-UserMigration.ts(8,23): error TS6133: 'queryRunner' is declared but its value is never read.
+
+error:[unhandledRejection] Error: getaddrinfo EAI_AGAIN ci-network
+error:[unhandledRejection] RepositoryNotFoundError: No repository for "User" was found. Looks like this entity is not registered in current "default" connection?
+error:[unhandledRejection] RepositoryNotFoundError: No repository for "User" was found. Looks like this entity is not registered in current "default" connection?
+error:[unhandledRejection] EntityColumnNotFound: No entity column "columns" was found.
+error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
+src/migration/1623858913160-ref.ts(5,21): error TS6133: 'queryRunner' is declared but its value is never read.
+src/migration/1623858913160-ref.ts(8,23): error TS6133: 'queryRunner' is declared but its value is never read.
+
+error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
+src/migration/1623859166825-ref.ts(5,21): error TS6133: 'queryRunner' is declared but its value is never read.
+src/migration/1623859166825-ref.ts(8,23): error TS6133: 'queryRunner' is declared but its value is never read.
+
+error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
+src/migration/1623859372175-ref.ts(5,21): error TS6133: 'queryRunner' is declared but its value is never read.
+src/migration/1623859372175-ref.ts(8,23): error TS6133: 'queryRunner' is declared but its value is never read.
+
+error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
+src/migration/1623859372175-ref.ts(5,21): error TS6133: 'queryRunner' is declared but its value is never read.
+src/migration/1623859372175-ref.ts(8,23): error TS6133: 'queryRunner' is declared but its value is never read.
+
+error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
+src/migration/1623859561759-migrationNameHere.ts(5,21): error TS6133: 'queryRunner' is declared but its value is never read.
+src/migration/1623859561759-migrationNameHere.ts(8,23): error TS6133: 'queryRunner' is declared but its value is never read.
+
+error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
+src/migration/1623859561759-migrationNameHere.ts(7,21): error TS6133: 'queryRunner' is declared but its value is never read.
+src/migration/1623859561759-migrationNameHere.ts(11,23): error TS6133: 'queryRunner' is declared but its value is never read.
+
+error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
+src/migration/1623859561759-migrationNameHere.ts(7,21): error TS6133: 'queryRunner' is declared but its value is never read.
+src/migration/1623859561759-migrationNameHere.ts(11,23): error TS6133: 'queryRunner' is declared but its value is never read.
+
+error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
+src/migration/1623860103222-$NAME.ts(5,21): error TS6133: 'queryRunner' is declared but its value is never read.
+src/migration/1623860103222-$NAME.ts(8,23): error TS6133: 'queryRunner' is declared but its value is never read.
+
+error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
+src/migration/1623860103222-$NAME.ts(5,21): error TS6133: 'queryRunner' is declared but its value is never read.
+src/migration/1623860103222-$NAME.ts(8,23): error TS6133: 'queryRunner' is declared but its value is never read.
+
+error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
+src/migration/1623860103222-$NAME.ts(5,21): error TS6133: 'queryRunner' is declared but its value is never read.
+src/migration/1623860103222-$NAME.ts(8,23): error TS6133: 'queryRunner' is declared but its value is never read.
+
+error:[unhandledRejection] EntityColumnNotFound: No entity column "columns" was found.
 error:[unhandledRejection] Error: connect ECONNREFUSED 127.0.0.1:5432
+error:[unhandledRejection] Error: getaddrinfo ENOTFOUND postgres
+error:[unhandledRejection] Error: No connection options were found in any orm configuration files.
+error:[unhandledRejection] Error: No connection options were found in any orm configuration files.
+error:[unhandledRejection] Error: No connection options were found in any orm configuration files.
+error:[unhandledRejection] Error: No connection options were found in any orm configuration files.
 error:[unhandledRejection] Error: connect ECONNREFUSED 127.0.0.1:5432
-error:[unhandledRejection] DataTypeNotSupportedError: Data type "Object" in "Board.title" is not supported by "postgres" database.
-error:[unhandledRejection] DataTypeNotSupportedError: Data type "Array" in "Board.columns" is not supported by "postgres" database.
-error:[unhandledRejection] Error: Entity metadata for Board#columns was not found. Check if you specified a correct entity object and if it's connected in the connection options.
-error:[unhandledRejection] QueryFailedError: invalid input syntax for type integer: "d45832b1-aac8-4bc6-afe8-4107ccca1b3a"
-error:[unhandledRejection] MissingPrimaryColumnError: Entity "TaskColumn" does not have a primary column. Primary column is required to have in all your entities. Use @PrimaryColumn decorator to add a primary column to your entity.
-error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
-error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
-error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
-error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
-error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
-error:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
-error:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
-error:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
-error:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
-error:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
-error:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
-error:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
-error:[unhandledRejection] TypeError: Cannot read property 'getRepository' of undefined
-error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
-error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
-error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
-error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
-error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
-error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
-error:[unhandledRejection] AlreadyHasActiveConnectionError: Cannot create a new connection named "default", because connection with such name already exist and it now has an active connection session.
-error:[unhandledRejection] QueryFailedError: column "boardId" of relation "board" does not exist
-error:[unhandledRejection] TypeError: Cannot read property 'id' of undefined
-error:[unhandledRejection] EntityColumnNotFound: No entity column "boardId" was found.
-error:[unhandledRejection] TypeError: Cannot read property 'id' of undefined
-error:[unhandledRejection] DataTypeNotSupportedError: Data type "Object" in "Task.userId" is not supported by "postgres" database.
-error:[unhandledRejection] QueryFailedError: column "boardId" of relation "task" contains null values
-error:[unhandledRejection] QueryFailedError: column "boardId" of relation "board" does not exist
-error:[unhandledRejection] TypeError: Cannot read property 'id' of undefined
-error:[unhandledRejection] TypeError: Cannot read property 'id' of undefined
+error:[unhandledRejection] error: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+error:[unhandledRejection] error: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+error:[unhandledRejection] error: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+error:[unhandledRejection] error: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+error:[unhandledRejection] Error: The server does not support SSL connections
+error:[unhandledRejection] error: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+error:[unhandledRejection] error: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+error:[unhandledRejection] error: ���� ������ "test" �� ����������
+error:[unhandledRejection] EntityColumnNotFound: No entity column "columns" was found.
+error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
+[96msrc/migration/1623909766541-migrate.ts[0m:[93m5[0m:[93m21[0m - [91merror[0m[90m TS6133: [0m'queryRunner' is declared but its value is never read.
+
+[7m5[0m     public async up(queryRunner: QueryRunner): Promise<void> {
+[7m [0m [91m                    ~~~~~~~~~~~[0m
+[96msrc/migration/1623909766541-migrate.ts[0m:[93m8[0m:[93m23[0m - [91merror[0m[90m TS6133: [0m'queryRunner' is declared but its value is never read.
+
+[7m8[0m     public async down(queryRunner: QueryRunner): Promise<void> {
+[7m [0m [91m                      ~~~~~~~~~~~[0m
+
+error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
+[96msrc/migration/1623909923929-migrate.ts[0m:[93m11[0m:[93m28[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.
+
+[7m11[0m         const foreignKey = table.foreignKeys.find(fk => fk.columnNames.indexOf("questionId") !== -1);
+[7m  [0m [91m                           ~~~~~[0m
+[96msrc/migration/1623909923929-migrate.ts[0m:[93m12[0m:[93m52[0m - [91merror[0m[90m TS2345: [0mArgument of type 'TableForeignKey | undefined' is not assignable to parameter of type 'string | TableForeignKey'.
+  Type 'undefined' is not assignable to type 'string | TableForeignKey'.
+
+[7m12[0m         await queryRunner.dropForeignKey("answer", foreignKey);
+[7m  [0m [91m                                                   ~~~~~~~~~~[0m
+
+error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
+[96msrc/migration/1623909923929-migrate.ts[0m:[93m1[0m:[93m42[0m - [91merror[0m[90m TS6133: [0m'Table' is declared but its value is never read.
+
+[7m1[0m import {MigrationInterface, QueryRunner, Table, TableIndex, TableColumn, TableForeignKey } from "typeorm";
+[7m [0m [91m                                         ~~~~~[0m
+[96msrc/migration/1623909923929-migrate.ts[0m:[93m1[0m:[93m49[0m - [91merror[0m[90m TS6133: [0m'TableIndex' is declared but its value is never read.
+
+[7m1[0m import {MigrationInterface, QueryRunner, Table, TableIndex, TableColumn, TableForeignKey } from "typeorm";
+[7m [0m [91m                                                ~~~~~~~~~~[0m
+[96msrc/migration/1623909923929-migrate.ts[0m:[93m1[0m:[93m61[0m - [91merror[0m[90m TS6133: [0m'TableColumn' is declared but its value is never read.
+
+[7m1[0m import {MigrationInterface, QueryRunner, Table, TableIndex, TableColumn, TableForeignKey } from "typeorm";
+[7m [0m [91m                                                            ~~~~~~~~~~~[0m
+[96msrc/migration/1623909923929-migrate.ts[0m:[93m1[0m:[93m74[0m - [91merror[0m[90m TS6133: [0m'TableForeignKey' is declared but its value is never read.
+
+[7m1[0m import {MigrationInterface, QueryRunner, Table, TableIndex, TableColumn, TableForeignKey } from "typeorm";
+[7m [0m [91m                                                                         ~~~~~~~~~~~~~~~[0m
+[96msrc/migration/1623909923929-migrate.ts[0m:[93m11[0m:[93m28[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.
+
+[7m11[0m         const foreignKey = table.foreignKeys.find(fk => fk.columnNames.indexOf("questionId") !== -1);
+[7m  [0m [91m                           ~~~~~[0m
+[96msrc/migration/1623909923929-migrate.ts[0m:[93m12[0m:[93m52[0m - [91merror[0m[90m TS2345: [0mArgument of type 'TableForeignKey | undefined' is not assignable to parameter of type 'string | TableForeignKey'.
+  Type 'undefined' is not assignable to type 'string | TableForeignKey'.
+
+[7m12[0m         await queryRunner.dropForeignKey("answer", foreignKey);
+[7m  [0m [91m                                                   ~~~~~~~~~~[0m
+
+error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
+[96msrc/migration/1623909923929-migrate.ts[0m:[93m1[0m:[93m42[0m - [91merror[0m[90m TS6133: [0m'Table' is declared but its value is never read.
+
+[7m1[0m import {MigrationInterface, QueryRunner, Table, TableIndex, TableColumn, TableForeignKey } from "typeorm";
+[7m [0m [91m                                         ~~~~~[0m
+[96msrc/migration/1623909923929-migrate.ts[0m:[93m1[0m:[93m49[0m - [91merror[0m[90m TS6133: [0m'TableIndex' is declared but its value is never read.
+
+[7m1[0m import {MigrationInterface, QueryRunner, Table, TableIndex, TableColumn, TableForeignKey } from "typeorm";
+[7m [0m [91m                                                ~~~~~~~~~~[0m
+[96msrc/migration/1623909923929-migrate.ts[0m:[93m1[0m:[93m61[0m - [91merror[0m[90m TS6133: [0m'TableColumn' is declared but its value is never read.
+
+[7m1[0m import {MigrationInterface, QueryRunner, Table, TableIndex, TableColumn, TableForeignKey } from "typeorm";
+[7m [0m [91m                                                            ~~~~~~~~~~~[0m
+
+error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
+[96msrc/migration/1623909923929-migrate.ts[0m:[93m1[0m:[93m49[0m - [91merror[0m[90m TS6133: [0m'TableIndex' is declared but its value is never read.
+
+[7m1[0m import {MigrationInterface, QueryRunner, Table, TableIndex, TableColumn, TableForeignKey } from "typeorm";
+[7m [0m [91m                                                ~~~~~~~~~~[0m
+[96msrc/migration/1623909923929-migrate.ts[0m:[93m1[0m:[93m61[0m - [91merror[0m[90m TS6133: [0m'TableColumn' is declared but its value is never read.
+
+[7m1[0m import {MigrationInterface, QueryRunner, Table, TableIndex, TableColumn, TableForeignKey } from "typeorm";
+[7m [0m [91m                                                            ~~~~~~~~~~~[0m
+
+error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
+[96msrc/migration/1623909923929-migrate.ts[0m:[93m1[0m:[93m49[0m - [91merror[0m[90m TS6133: [0m'TableIndex' is declared but its value is never read.
+
+[7m1[0m import {MigrationInterface, QueryRunner, Table, TableIndex, TableColumn, TableForeignKey } from "typeorm";
+[7m [0m [91m                                                ~~~~~~~~~~[0m
+[96msrc/migration/1623909923929-migrate.ts[0m:[93m1[0m:[93m61[0m - [91merror[0m[90m TS6133: [0m'TableColumn' is declared but its value is never read.
+
+[7m1[0m import {MigrationInterface, QueryRunner, Table, TableIndex, TableColumn, TableForeignKey } from "typeorm";
+[7m [0m [91m                                                            ~~~~~~~~~~~[0m
+
+error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
+[96msrc/migration/1623909923929-migrate.ts[0m:[93m1[0m:[93m49[0m - [91merror[0m[90m TS6133: [0m'TableIndex' is declared but its value is never read.
+
+[7m1[0m import {MigrationInterface, QueryRunner, Table, TableIndex, TableColumn, TableForeignKey } from "typeorm";
+[7m [0m [91m                                                ~~~~~~~~~~[0m
+[96msrc/migration/1623909923929-migrate.ts[0m:[93m1[0m:[93m61[0m - [91merror[0m[90m TS6133: [0m'TableColumn' is declared but its value is never read.
+
+[7m1[0m import {MigrationInterface, QueryRunner, Table, TableIndex, TableColumn, TableForeignKey } from "typeorm";
+[7m [0m [91m                                                            ~~~~~~~~~~~[0m
+
+error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
+[96msrc/migration/1623909923929-migrate.ts[0m:[93m1[0m:[93m49[0m - [91merror[0m[90m TS6133: [0m'TableIndex' is declared but its value is never read.
+
+[7m1[0m import {MigrationInterface, QueryRunner, Table, TableIndex, TableColumn, TableForeignKey } from "typeorm";
+[7m [0m [91m                                                ~~~~~~~~~~[0m
+
+error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
+[96msrc/migration/1623909923929-migrate.ts[0m:[93m1[0m:[93m49[0m - [91merror[0m[90m TS6133: [0m'TableIndex' is declared but its value is never read.
+
+[7m1[0m import {MigrationInterface, QueryRunner, Table, TableIndex, TableColumn, TableForeignKey } from "typeorm";
+[7m [0m [91m                                                ~~~~~~~~~~[0m
+
+error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
+[96msrc/migration/1623909923929-migrate.ts[0m:[93m1[0m:[93m49[0m - [91merror[0m[90m TS6133: [0m'TableColumn' is declared but its value is never read.
+
+[7m1[0m import {MigrationInterface, QueryRunner, Table, TableColumn, TableForeignKey } from "typeorm";
+[7m [0m [91m                                                ~~~~~~~~~~~[0m
+
+error:[unhandledRejection] EntityColumnNotFound: No entity column "columns" was found.

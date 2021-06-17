@@ -31,7 +31,7 @@ const deleteById = async (id: number): Promise<number> => {
   const taskRepository = getRepository(Task);
   const task = await taskRepository.findOne(id);
   if (task) {
-    await taskRepository.delete(id);
+    await taskRepository.delete(id.toString());
     return 204;
   }
   return 404;
@@ -41,8 +41,9 @@ const deleteUser = async (id: number): Promise<void> => {
   const taskRepository = getRepository(Task);
   const tasks = await taskRepository.find();
   tasks.map(async (task) => {
-    if (task.userId === id)
-      await taskRepository.update(Number(task.id), { ...task,userId: null });
+    if (task.userId === id.toString()) {
+      await taskRepository.update(Number(task.id),{  userId: null });
+    }
   });
 };
 
@@ -51,8 +52,7 @@ const deleteBoard = async (id: number): Promise<void> => {
   const taskRepository = getRepository(Task);
   const tasks = await taskRepository.find();
   tasks.map(async (task) => {
-    console.log(task);
-    if (task.boardId === id)
+    if (task.boardId === id.toString())
       await taskRepository.delete(Number(task.id));
   });
 };

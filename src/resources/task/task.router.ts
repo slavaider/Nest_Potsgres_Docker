@@ -5,7 +5,8 @@ import Task from '../../entity/task.model';
 const router = Router();
 
 function toResponse(task:Task){
-  return {id:task.id?.toString(),...task}
+  const id = task.id?.toString();
+  return {...task,id};
 }
 
 // GET ALL
@@ -17,7 +18,7 @@ router.get('/boards/:boardId/tasks/', async (_req, res) => {
 router.post('/boards/:boardId/tasks/', async (req, res) => {
   const newTask = { ...req.body };
   const { boardId } = req.params;
-  newTask.boardId = Number(boardId);
+  newTask.boardId = boardId;
   const task = await tasksService.createTask(newTask);
   res.status(201).json(toResponse(task));
 });
@@ -25,8 +26,8 @@ router.post('/boards/:boardId/tasks/', async (req, res) => {
 router.get('/boards/:boardId/tasks/:id', async (req, res) => {
   const { id } = req.params;
   if (id) {
-    const task = await tasksService.getById(Number(id));
-    if (task === 404) {
+    const task = await tasksService.getById(Number(id)).catch(console.log.bind(console));
+    if (!task) {
       res.status(404).send();
     } else {
       res.json(toResponse(task as Task));

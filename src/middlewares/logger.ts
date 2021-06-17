@@ -5,6 +5,7 @@ import { log } from './winston-logger';
 
 export const logger = (req: Request, res: Response, next: NextFunction): void => {
   log.info(JSON.stringify({
+    METHOD:req.method,
     URL: req.url,
     STATUS: res.statusCode,
     QUERY: req.query,

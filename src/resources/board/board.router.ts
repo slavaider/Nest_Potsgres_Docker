@@ -1,12 +1,15 @@
 import { Router } from 'express';
 import boardsService from './board.service';
-import User from '../../entity/user.model';
 import Board from '../../entity/board.model';
+import TaskColumn from '../../entity/column.model';
 
 const router = Router();
 
-function toResponse(user:User){
-  return {id:user.id?.toString(),...user};
+function toResponse(board:Board){
+  const copy = board.columns?.map(col=>{
+   return {...col,id:col.id?.toString()} as TaskColumn
+  })
+  return {id:board.id?.toString(),columns:copy,title:board.title};
 }
 // GET ALL
 router.get('/', async (_req, res) => {
@@ -15,17 +18,15 @@ router.get('/', async (_req, res) => {
 });
 // POST
 router.post('/', async (req, res) => {
-  const boardRaw = req.body;
-  boardRaw.columns = boardRaw.columns.map((col) => col);
-  const board = await boardsService.createBoard(boardRaw);
+  const board = await boardsService.createBoard(req.body);
   res.status(201).json(toResponse(board));
 });
 // GET ID
 router.get('/:id', async (req, res) => {
   const { id } = req.params;
   if (id) {
-    const board = await boardsService.getById(Number(id));
-    if (board === 404) {
+    const board = await boardsService.getById(Number(id)).catch(console.log.bind(console));
+    if (!board) {
       res.status(404).send();
     } else {
       res.json(toResponse(board as Board));
@@ -34,11 +35,9 @@ router.get('/:id', async (req, res) => {
 });
 // PUT ID
 router.put('/:id', async (req, res) => {
-  const boardRaw = req.body;
-  boardRaw.columns = boardRaw.columns.map(col=>col);
   const { id } = req.params;
   if (id) {
-    const board = await boardsService.putById(boardRaw, Number(id));
+    const board = await boardsService.putById(req.body, Number(id));
     res.json(toResponse(board as Board));
   }
 });

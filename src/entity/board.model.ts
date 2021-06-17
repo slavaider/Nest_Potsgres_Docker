@@ -1,5 +1,5 @@
-import { Column, Entity, JoinTable, ManyToMany, PrimaryGeneratedColumn } from 'typeorm';
 import TaskColumn from './column.model';
+import { Column, Entity, JoinTable, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
 class Board {
@@ -7,9 +7,9 @@ class Board {
   id?: number;
 
   @Column()
-  title?: string;
+  title!: string;
 
-  @ManyToMany(() => TaskColumn)
+  @OneToMany(() => TaskColumn, board => board, { cascade: true})
   @JoinTable()
   columns?: TaskColumn[];
 }

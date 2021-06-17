@@ -14,6 +14,8 @@ services:
       - ./src:/usr/app/src
       - ./combined.log:/usr/app/combined.log
       - ./error.log:/usr/app/error.log
+    networks:
+      - ci-network
   postgres:
     build: ./database
     restart: on-failure
@@ -26,6 +28,8 @@ services:
       - PGDATA=/var/lib/postgresql/data/pgdata
     volumes:
       - /custom/mount:/var/lib/postgresql/data
+    networks:
+      - ci-network
 networks:
-  default:
-    name: myNet
+  ci-network:
+    driver: bridge

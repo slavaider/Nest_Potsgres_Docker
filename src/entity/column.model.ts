@@ -5,11 +5,10 @@ class TaskColumn {
   id?: number;
 
   @Column()
-  title?: string;
+  title?: string = 'title';
 
   @Column()
-  order?: number;
-
+  order?: number = 0;
 }
 
 export default TaskColumn;

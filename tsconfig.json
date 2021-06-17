@@ -3,6 +3,7 @@
     "module": "commonjs",
     "sourceRoot": "./src",
     "target": "es6",
+    "baseUrl": "/",
     "sourceMap": true,
     "allowJs": false,
     "skipLibCheck": true,
@@ -24,7 +25,8 @@
     "forceConsistentCasingInFileNames": true
   },
   "exclude": [
-    "node_modules/"
+    "node_modules/",
+    "ormconfig.js"
   ],
   "include": [
     "src/**/*.ts"

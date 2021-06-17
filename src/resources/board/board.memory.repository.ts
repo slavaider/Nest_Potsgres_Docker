@@ -2,7 +2,6 @@ import taskService from '../task/task.service';
 import Board from '../../entity/board.model';
 import { getRepository } from 'typeorm';
 
-
 const getAll = async (): Promise<Board[]> => {
   const boardRepository = getRepository(Board);
   return boardRepository.find();
@@ -12,7 +11,7 @@ const getAll = async (): Promise<Board[]> => {
 const createBoard = async (board: Board): Promise<Board> => {
   const boardRepository = getRepository(Board);
   const newBoard = boardRepository.create(board);
-  return await boardRepository.save(newBoard);
+  return boardRepository.save(newBoard);
 };
 
 
@@ -24,8 +23,9 @@ const getById = async (id: number): Promise<number | Board | undefined> => {
 
 const putById = async (newBoard: Board, id: number): Promise<Board | undefined> => {
   const boardRepository = getRepository(Board);
-  await boardRepository.update(id, newBoard);
+  await boardRepository.update(id,newBoard);
   return newBoard;
+
 };
 
 
