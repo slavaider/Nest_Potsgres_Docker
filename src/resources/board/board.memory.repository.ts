@@ -20,12 +20,10 @@ const getById = async (id: number): Promise<number | Board | undefined> => {
   return boardRepository.findOne(id);
 };
 
-
 const putById = async (newBoard: Board, id: number): Promise<Board | undefined> => {
   const boardRepository = getRepository(Board);
-  await boardRepository.update(id,newBoard);
+  await boardRepository.update(id, newBoard);
   return newBoard;
-
 };
 
 

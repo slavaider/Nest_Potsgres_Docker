@@ -176,3 +176,33 @@ error:[unhandledRejection] TSError: ⨯ Unable to compile TypeScript:
 [7m [0m [91m                                                ~~~~~~~~~~~[0m
 
 error:[unhandledRejection] EntityColumnNotFound: No entity column "columns" was found.
+error:[unhandledRejection] QueryFailedError: invalid input syntax for type uuid: "NaN"
+error:[unhandledRejection] EntityColumnNotFound: No entity column "columns" was found.
+error:[unhandledRejection] QueryFailedError: invalid input syntax for type uuid: "NaN"
+error:[unhandledRejection] QueryFailedError: invalid input syntax for type uuid: "NaN"
+error:[unhandledRejection] QueryFailedError: invalid input syntax for type uuid: "NaN"
+error:[unhandledRejection] QueryFailedError: invalid input syntax for type uuid: "NaN"
+error:[unhandledRejection] QueryFailedError: invalid input syntax for type uuid: "NaN"
+error:[unhandledRejection] QueryFailedError: invalid input syntax for type uuid: "NaN"
+error:[unhandledRejection] QueryFailedError: invalid input syntax for type uuid: "NaN"
+error:[unhandledRejection] QueryFailedError: invalid input syntax for type uuid: "NaN"
+error:[unhandledRejection] QueryFailedError: invalid input syntax for type uuid: "NaN"
+error:[unhandledRejection] QueryFailedError: invalid input syntax for type uuid: "NaN"
+error:[unhandledRejection] QueryFailedError: update or delete on table "board" violates foreign key constraint "FK_c2d0de90d0477c1956101301c4f" on table "task_column"
+error:[unhandledRejection] EntityColumnNotFound: No entity column "columns" was found.
+error:[unhandledRejection] QueryFailedError: update or delete on table "board" violates foreign key constraint "FK_c2d0de90d0477c1956101301c4f" on table "task_column"
+error:[unhandledRejection] QueryFailedError: update or delete on table "board" violates foreign key constraint "FK_c2d0de90d0477c1956101301c4f" on table "task_column"
+error:[unhandledRejection] QueryFailedError: update or delete on table "board" violates foreign key constraint "FK_c2d0de90d0477c1956101301c4f" on table "task_column"
+error:[unhandledRejection] QueryFailedError: update or delete on table "board" violates foreign key constraint "FK_c2d0de90d0477c1956101301c4f" on table "task_column"
+error:[unhandledRejection] QueryFailedError: update or delete on table "board" violates foreign key constraint "FK_c2d0de90d0477c1956101301c4f" on table "task_column"
+error:[unhandledRejection] EntityColumnNotFound: No entity column "columns" was found.
+error:[unhandledRejection] EntityColumnNotFound: No entity column "columns" was found.
+error:[unhandledRejection] Error: "board" alias was not found. Maybe you forgot to join it?
+error:[unhandledRejection] Error: "board" alias was not found. Maybe you forgot to join it?
+error:[unhandledRejection] Error: "board" alias was not found. Maybe you forgot to join it?
+error:[unhandledRejection] Error: "board" alias was not found. Maybe you forgot to join it?
+error:[unhandledRejection] Error: "board" alias was not found. Maybe you forgot to join it?
+error:[unhandledRejection] Error: "board" alias was not found. Maybe you forgot to join it?
+error:[unhandledRejection] EntityColumnNotFound: No entity column "columns" was found.
+error:[unhandledRejection] EntityColumnNotFound: No entity column "columns" was found.
+error:[unhandledRejection] EntityColumnNotFound: No entity column "columns" was found.

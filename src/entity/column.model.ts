@@ -1,4 +1,5 @@
-import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, Entity, ManyToOne,PrimaryGeneratedColumn } from 'typeorm';
+import Board from './board.model';
 @Entity()
 class TaskColumn {
   @PrimaryGeneratedColumn()
@@ -9,6 +10,9 @@ class TaskColumn {
 
   @Column()
   order?: number = 0;
+
+  @ManyToOne(() => Board, board => board.columns)
+  board?: Board;
 }
 
 export default TaskColumn;
