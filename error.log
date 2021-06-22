@@ -206,3 +206,6 @@ error:[unhandledRejection] Error: "board" alias was not found. Maybe you forgot 
 error:[unhandledRejection] EntityColumnNotFound: No entity column "columns" was found.
 error:[unhandledRejection] EntityColumnNotFound: No entity column "columns" was found.
 error:[unhandledRejection] EntityColumnNotFound: No entity column "columns" was found.
+error:[unhandledRejection] QueryFailedError: update or delete on table "board" violates foreign key constraint "FK_c2d0de90d0477c1956101301c4f" on table "task_column"
+error:[unhandledRejection] Error: Entity metadata for Board#columns was not found. Check if you specified a correct entity object and if it's connected in the connection options.
+error:[unhandledRejection] Error: Entity metadata for Board#columns was not found. Check if you specified a correct entity object and if it's connected in the connection options.

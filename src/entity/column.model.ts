@@ -1,6 +1,6 @@
 import { Column, Entity, ManyToOne,PrimaryGeneratedColumn } from 'typeorm';
 import Board from './board.model';
-@Entity()
+@Entity({name: 'column'})
 class TaskColumn {
   @PrimaryGeneratedColumn()
   id?: number;
@@ -11,8 +11,8 @@ class TaskColumn {
   @Column()
   order?: number = 0;
 
-  @ManyToOne(() => Board, board => board.columns)
-  board?: Board;
+  @ManyToOne('board', 'columns', {onDelete: 'CASCADE'})
+  board!: Board;
 }
 
 export default TaskColumn;

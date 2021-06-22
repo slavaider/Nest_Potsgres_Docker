@@ -1,7 +1,7 @@
 import TaskColumn from './column.model';
-import { Column, Entity, JoinColumn, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
 
-@Entity()
+@Entity({name: 'board'})
 class Board {
   @PrimaryGeneratedColumn()
   id?: number;
@@ -9,8 +9,7 @@ class Board {
   @Column()
   title!: string;
 
-  @OneToMany(() => TaskColumn, column => column.board)
-  @JoinColumn()
+  @OneToMany('column', 'board')
   columns?: TaskColumn[];
 }
 

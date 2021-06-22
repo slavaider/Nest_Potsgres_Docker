@@ -1,10 +1,11 @@
 import taskService from '../task/task.service';
 import Board from '../../entity/board.model';
 import { getRepository } from 'typeorm';
+import TaskColumn from '../../entity/column.model';
 
 const getAll = async (): Promise<Board[]> => {
   const boardRepository = getRepository(Board);
-  return boardRepository.find();
+  return boardRepository.find({ relations: ["columns"] });
 };
 
 
@@ -17,13 +18,32 @@ const createBoard = async (board: Board): Promise<Board> => {
 
 const getById = async (id: number): Promise<number | Board | undefined> => {
   const boardRepository = getRepository(Board);
-  return boardRepository.findOne(id);
+  return boardRepository.findOne(id,{ relations: ["columns"] });
 };
 
 const putById = async (newBoard: Board, id: number): Promise<Board | undefined> => {
   const boardRepository = getRepository(Board);
-  await boardRepository.update(id, newBoard);
-  return newBoard;
+  const columnRepository = getRepository(TaskColumn);
+  const oldBoard = await boardRepository.findOne(id, { relations: ["columns"] });
+  const { columns = [], title } = newBoard;
+  const deleteResults = oldBoard?.columns?.map((col) =>  columnRepository.delete(Number(col.id)));
+  if (deleteResults) {
+    await Promise.all(deleteResults);
+  }
+  const newCols = columns.map((col) => columnRepository.create(col));
+  if (title) {
+    const board = await boardRepository.findOne(id);
+    if (board) {
+      await boardRepository.update(id, {title});
+    }
+  }
+  const board = await boardRepository.findOne(id);
+  await columnRepository.save(newCols);
+  if (board) {
+    board.columns = newCols;
+    return boardRepository.save(board);
+  }
+  return undefined;
 };
 
 
