@@ -3,3 +3,5 @@
   - ``docker compose up``
 - To test application
   - ``npm test``
+- To test auth application
+  - ``npm run test:auth``
