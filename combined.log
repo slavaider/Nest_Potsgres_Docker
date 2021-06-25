@@ -1263,3 +1263,1309 @@ LOG:{"METHOD":"GET","URL":"/boards/110/tasks/99","STATUS":200,"QUERY":{},"PARAMS
 LOG:{"METHOD":"DELETE","URL":"/boards/110/tasks/99","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
 LOG:{"METHOD":"DELETE","URL":"/boards/110/tasks/100","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
 LOG:{"METHOD":"DELETE","URL":"/boards/110","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error: getaddrinfo ENOTFOUND postgres
+LOG:[unhandledRejection] Error: getaddrinfo ENOTFOUND postgres
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/8","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/9","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"PUT","URL":"/boards/10","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"id":"10","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}],"title":"Autotest updated board"}}
+LOG:{"METHOD":"GET","URL":"/boards/10","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/10","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/11","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/11","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/12/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"12","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/12/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"12","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/12/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"12","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/12/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"12","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/12/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"12","userId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/boards/12/tasks/11","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12/tasks/13","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12/tasks/12","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12/tasks/14","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12/tasks/15","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12/tasks/11","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12/tasks/13","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12/tasks/12","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12/tasks/14","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12/tasks/15","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/8","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/users/6","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/6","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/7","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/users/8","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"8"}}
+LOG:{"METHOD":"GET","URL":"/users/8","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/8","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/9","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/13/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"10","boardId":"13"}}
+LOG:{"METHOD":"POST","URL":"/boards/13/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"10","boardId":"13"}}
+LOG:{"METHOD":"DELETE","URL":"/users/10","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/13/tasks/16","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/13/tasks/17","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/13/tasks/17","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/13/tasks/16","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/13","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/14/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/boards/14/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/14/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/14/tasks/18","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/14/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/14/tasks/19","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/14/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/14/tasks/20","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"order":0,"boardId":"14","columnId":null,"userId":null,"title":"Autotest updated task","description":"Lorem ipsum","id":"20"}}
+LOG:{"METHOD":"GET","URL":"/boards/14/tasks/20","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/14/tasks/18","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/14/tasks/18","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/14/tasks/18","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/14","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/favicon.ico","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/15","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/16","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"PUT","URL":"/boards/17","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"id":"17","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}],"title":"Autotest updated board"}}
+LOG:{"METHOD":"GET","URL":"/boards/17","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/17","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/18","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/18","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/19/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"19","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/19/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"19","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/19/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"19","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/19/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"19","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/19/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"19","userId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/boards/19/tasks/21","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/19/tasks/24","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/19/tasks/23","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/19/tasks/25","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/19/tasks/22","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/19","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/19/tasks/21","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/19/tasks/24","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/19/tasks/23","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/19/tasks/25","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/19/tasks/22","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/15","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/users/11","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/11","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/12","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/users/13","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"13"}}
+LOG:{"METHOD":"GET","URL":"/users/13","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/13","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/14","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/20/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"15","boardId":"20"}}
+LOG:{"METHOD":"POST","URL":"/boards/20/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"15","boardId":"20"}}
+LOG:{"METHOD":"DELETE","URL":"/users/15","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/20/tasks/26","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/20/tasks/27","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/20/tasks/26","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/20/tasks/27","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/20","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/21/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/boards/21/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/21/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/21/tasks/28","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/21/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/21/tasks/29","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/21/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/21/tasks/30","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"order":0,"boardId":"21","columnId":null,"userId":null,"title":"Autotest updated task","description":"Lorem ipsum","id":"30"}}
+LOG:{"METHOD":"GET","URL":"/boards/21/tasks/30","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/21/tasks/28","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/21/tasks/28","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/21/tasks/28","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/21","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"test","password":"test"}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"test","password":"test"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"test","password":"test"}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"test","password":"test"}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards/22/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/16","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/16","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/22/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/23","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/22/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/boards/22/tasks/31","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/17","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/24","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/22/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/boards/22/tasks/32","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"PUT","URL":"/users/18","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"18"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/users/18","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/22/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/25","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"id":"25","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}],"title":"Autotest updated board"}}
+LOG:{"METHOD":"DELETE","URL":"/users/18","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"PUT","URL":"/boards/22/tasks/33","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"order":0,"boardId":"22","columnId":null,"userId":null,"title":"Autotest updated task","description":"Lorem ipsum","id":"33"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/22/tasks/33","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/19","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/22/tasks/31","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/22/tasks/31","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/25","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/22/tasks/31","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/25","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/22","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/26/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"20","boardId":"26"}}
+LOG:{"METHOD":"POST","URL":"/boards/26/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"20","boardId":"26"}}
+LOG:{"METHOD":"DELETE","URL":"/boards/27","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/20","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/27","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/boards/26/tasks/34","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/26/tasks/35","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/26/tasks/34","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/28/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"28","userId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/26/tasks/35","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/28/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"28","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/28/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"28","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/28/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"28","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/28/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"28","userId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/26","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/boards/28/tasks/36","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/28/tasks/40","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/28/tasks/38","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/28/tasks/39","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/28/tasks/37","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/28","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/boards/28/tasks/36","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/28/tasks/38","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/28/tasks/39","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/28/tasks/40","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/28/tasks/37","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/23","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/123","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"PUT","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"PUT","URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest updated board"}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"DELETE","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"DELETE","URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"PUT","URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest updated task"}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"DELETE","URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"PUT","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"DELETE","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"GET","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"PUT","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"DELETE","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"GET","URL":"/users/123","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"PUT","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"DELETE","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:[unhandledRejection] ReferenceError: fetch is not defined
+LOG:[unhandledRejection] TypeError: Only HTTP(S) protocols are supported
+LOG:[unhandledRejection] FetchError: request to https://localhost:4000/ failed, reason: write EPROTO 20452:error:1408F10B:SSL routines:ssl3_get_record:wrong version number:c:\ws\deps\openssl\openssl\ssl\record\ssl3_record.c:332:
+
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[undefined] undefined
+LOG:{"METHOD":"POST","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error: Illegal arguments: undefined, string
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error: Illegal arguments: undefined, string
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error: Illegal arguments: undefined, string
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:[unhandledRejection] QueryFailedError: значение NULL в столбце "name" отношения "user" нарушает ограничение NOT NULL
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"admin","password":"admin"}}
+LOG:[unhandledRejection] QueryFailedError: значение NULL в столбце "login" отношения "user" нарушает ограничение NOT NULL
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"GET","URL":"/reset","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/reset","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"GET","URL":"/reset","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"PUT","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"error":"jwt malformed","title":"Autotest updated task"}}
+LOG:[unhandledRejection] EntityColumnNotFound: No entity column "error" was found.
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"PUT","URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"error":"jwt malformed","title":"Autotest updated board"}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"DELETE","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:{"METHOD":"DELETE","URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"DELETE","URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/123","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/123","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"GET","URL":"/reset","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"PUT","URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"error":"jwt malformed","title":"Autotest updated board"}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"PUT","URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"error":"jwt malformed","title":"Autotest updated task"}}
+LOG:[unhandledRejection] EntityColumnNotFound: No entity column "error" was found.
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:{"METHOD":"DELETE","URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"PUT","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"GET","URL":"/users/123","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/42/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/42/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/40","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/40","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/41","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/42/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks/44","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/boards/43","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/42/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/42/tasks/48","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/41","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"PUT","URL":"/boards/44","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"id":"44","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}],"title":"Autotest updated board"}}
+LOG:{"METHOD":"POST","URL":"/boards/42/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/boards/42/tasks/49","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"order":0,"boardId":"42","columnId":null,"userId":null,"title":"Autotest updated task","description":"Lorem ipsum","id":"49"}}
+LOG:{"METHOD":"PUT","URL":"/users/42","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"42"}}
+LOG:{"METHOD":"GET","URL":"/boards/42/tasks/49","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/42","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/42","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/42/tasks/47","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/44","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/42/tasks/47","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/44","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/42/tasks/47","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/42","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/43","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/45","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/45","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/47/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"44","boardId":"47"}}
+LOG:{"METHOD":"POST","URL":"/boards/47/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"44","boardId":"47"}}
+LOG:{"METHOD":"POST","URL":"/boards/46/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"46","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/46/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"46","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/46/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"46","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/46/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"46","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/46/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"46","userId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/users/44","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/47/tasks/50","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/47/tasks/51","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/47/tasks/50","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/47/tasks/51","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/47","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/123","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"PUT","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/46/tasks/52","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/46/tasks/54","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/46/tasks/56","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/46/tasks/53","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/46/tasks/55","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/46","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/46/tasks/52","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/46/tasks/54","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/46/tasks/56","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/46/tasks/53","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/46/tasks/55","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/41","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin"}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:[unhandledRejection] RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+LOG:[unhandledRejection] RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+LOG:[unhandledRejection] RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"error":"Unauthorized","title":"Autotest updated board"}}
+LOG:{"METHOD":"PUT","URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"error":"Unauthorized","title":"Autotest updated task"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"PUT","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/123","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:[unhandledRejection] RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+LOG:[unhandledRejection] RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+LOG:[unhandledRejection] RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"error":"Unauthorized","title":"Autotest updated task"}}
+LOG:{"METHOD":"PUT","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"PUT","URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"error":"Unauthorized","title":"Autotest updated board"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/users/123","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"PUT","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"PUT","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"PUT","URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"error":"jwt malformed","title":"Autotest updated board"}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"error":"jwt malformed","title":"Autotest updated task"}}
+LOG:[unhandledRejection] EntityColumnNotFound: No entity column "error" was found.
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"DELETE","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/123","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"error":"jwt malformed","title":"Autotest updated board"}}
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/boards/undefined/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"PUT","URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"error":"jwt malformed","title":"Autotest updated task"}}
+LOG:[unhandledRejection] EntityColumnNotFound: No entity column "error" was found.
+LOG:{"METHOD":"DELETE","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"DELETE","URL":"/boards/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/123","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/60/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/boards/60/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/60/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks/44","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/60/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/60/tasks/64","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/60/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"PUT","URL":"/boards/60/tasks/65","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"order":0,"boardId":"60","columnId":null,"userId":null,"title":"Autotest updated task","description":"Lorem ipsum","id":"65"}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/60/tasks/65","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/61","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/60/tasks/63","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/60/tasks/63","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/boards/62","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"PUT","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/60/tasks/63","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/60","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"PUT","URL":"/boards/63","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"id":"63","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}],"title":"Autotest updated board"}}
+LOG:{"METHOD":"GET","URL":"/boards/63","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/63","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/64","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/64","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/65/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"65","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/65/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"65","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/65/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"65","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/65/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"65","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/65/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"65","userId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/65/tasks/66","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/65/tasks/67","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/65/tasks/68","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/65/tasks/70","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/65/tasks/69","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/65","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/65/tasks/66","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/65/tasks/67","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/65/tasks/68","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/65/tasks/70","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/65/tasks/69","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/61","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/123","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/66/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"66"}}
+LOG:{"METHOD":"POST","URL":"/boards/66/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"66"}}
+LOG:{"METHOD":"DELETE","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/67/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/67/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/68","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/67/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"PUT","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks/44","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:{"METHOD":"POST","URL":"/boards/67/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/69","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/67/tasks/74","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/67/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/70","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"id":"70","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}],"title":"Autotest updated board"}}
+LOG:{"METHOD":"PUT","URL":"/boards/67/tasks/75","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"order":0,"boardId":"67","columnId":null,"userId":null,"title":"Autotest updated task","description":"Lorem ipsum","id":"75"}}
+LOG:{"METHOD":"GET","URL":"/boards/67/tasks/75","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/67/tasks/73","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/67/tasks/73","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/67/tasks/73","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/70","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/67","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/70","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/71","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/71","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/72/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"72","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/72/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"72","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/72/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"72","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/72/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"72","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/72/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"72","userId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/boards/72/tasks/76","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/72/tasks/77","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/72/tasks/78","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/72/tasks/80","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/72/tasks/79","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/72","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/72/tasks/76","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/72/tasks/77","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/72/tasks/78","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/72/tasks/80","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/72/tasks/79","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/68","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/123","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/73/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"73"}}
+LOG:{"METHOD":"POST","URL":"/boards/73/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"73"}}
+LOG:{"METHOD":"DELETE","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/123","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards/75/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/75/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"PUT","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/74","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/75/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks/44","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/76","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/75/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/75/tasks/84","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/75/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/77","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"id":"77","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}],"title":"Autotest updated board"}}
+LOG:{"METHOD":"PUT","URL":"/boards/75/tasks/85","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"order":0,"boardId":"75","columnId":null,"userId":null,"title":"Autotest updated task","description":"Lorem ipsum","id":"85"}}
+LOG:{"METHOD":"GET","URL":"/boards/75/tasks/85","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/75/tasks/83","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/75/tasks/83","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/77","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/75/tasks/83","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/77","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/75","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/78","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/78","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/79/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"79","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/79/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"79","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/79/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"79","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/79/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"79","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/79/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"79","userId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/boards/79/tasks/86","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/79/tasks/87","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/79/tasks/88","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/79/tasks/90","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/79/tasks/89","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/79","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/123","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/79/tasks/86","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/79/tasks/87","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/79/tasks/88","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/79/tasks/90","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/79/tasks/89","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/74","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/80/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"80"}}
+LOG:{"METHOD":"POST","URL":"/boards/80/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"80"}}
+LOG:{"METHOD":"DELETE","URL":"/users/undefined","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/82/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/82/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/49","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/49","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/82/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/81","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks/44","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/82/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/82/tasks/94","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/83","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/50","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/82/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/boards/82/tasks/95","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"order":0,"boardId":"82","columnId":null,"userId":null,"title":"Autotest updated task","description":"Lorem ipsum","id":"95"}}
+LOG:{"METHOD":"GET","URL":"/boards/82/tasks/95","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"PUT","URL":"/boards/84","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"id":"84","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}],"title":"Autotest updated board"}}
+LOG:{"METHOD":"PUT","URL":"/users/51","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"51"}}
+LOG:{"METHOD":"GET","URL":"/boards/82/tasks/93","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/51","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/82/tasks/93","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/51","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/82/tasks/93","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/boards/82","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/84","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/52","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/84","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/85","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/86/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"53","boardId":"86"}}
+LOG:{"METHOD":"POST","URL":"/boards/86/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"53","boardId":"86"}}
+LOG:{"METHOD":"GET","URL":"/boards/85","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/users/53","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/87/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"87","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/87/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"87","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/87/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"87","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/87/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"87","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/87/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"87","userId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/86/tasks/97","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/123","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/86/tasks/96","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/boards/86/tasks/97","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/86/tasks/96","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/87/tasks/98","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/87/tasks/99","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/87/tasks/100","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/87/tasks/101","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/87/tasks/102","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/86","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/87","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/87/tasks/98","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/87/tasks/99","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/87/tasks/100","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/87/tasks/101","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/87/tasks/102","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/81","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/2/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/users/2","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/2/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/2","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/1","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/2/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/2/tasks/1","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/3","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/2/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/users/3","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/2/tasks/2","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/boards/4","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"id":"4","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}],"title":"Autotest updated board"}}
+LOG:{"METHOD":"POST","URL":"/boards/2/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/users/4","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"4"}}
+LOG:{"METHOD":"GET","URL":"/users/4","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"PUT","URL":"/boards/2/tasks/3","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"order":0,"boardId":"2","columnId":null,"userId":null,"title":"Autotest updated task","description":"Lorem ipsum","id":"3"}}
+LOG:{"METHOD":"DELETE","URL":"/users/4","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/2/tasks/3","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/4","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/2/tasks/1","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/4","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/2/tasks/1","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/5","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/boards/2/tasks/1","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/boards/2","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/5","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/boards/5","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/6/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"6","boardId":"6"}}
+LOG:{"METHOD":"POST","URL":"/boards/6/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"6","boardId":"6"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/users/6","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/7/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"7","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/7/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"7","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/7/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"7","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/7/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"7","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/7/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"7","userId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/boards/6/tasks/4","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/7/tasks/8","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/7/tasks/10","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/6/tasks/5","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/7/tasks/7","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/7/tasks/6","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/7/tasks/9","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/6/tasks/5","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/6/tasks/4","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/7","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/6","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/7/tasks/8","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/7/tasks/7","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/7/tasks/9","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/7/tasks/10","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/7/tasks/6","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/1","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/123","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}

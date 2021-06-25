@@ -1,5 +1,5 @@
 import { log } from './winston-logger';
-import { NextFunction,Response,Request } from 'express';
+import { Response, Request, NextFunction } from 'express';
 
 
 export function customErrorHandler(err: Error, errorType:string | Promise<never>): void{
@@ -10,7 +10,7 @@ export function customErrorHandler(err: Error, errorType:string | Promise<never>
  }
 }
 
-export function errorHandler(err:Error,_req:Request, res:Response, _next:NextFunction):void {
+export function errorHandler(err:Error,_req:Request, res:Response,_next:NextFunction):void {
   log.error(`[${err.name}] ${err.message}`);
-  res.status(500).render('error',{err});
+  if(err) res.status(500).render('error',{err});
 }

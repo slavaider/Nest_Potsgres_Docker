@@ -1,21 +1,22 @@
 import { Router } from 'express';
 import tasksService from './task.service';
 import Task from '../../entity/task.model';
+import guard from '../../middlewares/login.guard';
 
 const router = Router();
 
-function toResponse(task:Task){
+function toResponse(task: Task) {
   const id = task.id?.toString();
-  return {...task,id};
+  return { ...task, id };
 }
 
 // GET ALL
-router.get('/boards/:boardId/tasks/', async (_req, res) => {
+router.get('/boards/:boardId/tasks/', guard, async (_req, res) => {
   const tasks = await tasksService.getAll();
   res.json(tasks.map(toResponse));
 });
 // POST
-router.post('/boards/:boardId/tasks/', async (req, res) => {
+router.post('/boards/:boardId/tasks/', guard, async (req, res) => {
   const newTask = { ...req.body };
   const { boardId } = req.params;
   newTask.boardId = boardId;
@@ -23,7 +24,7 @@ router.post('/boards/:boardId/tasks/', async (req, res) => {
   res.status(201).json(toResponse(task));
 });
 // GET ID
-router.get('/boards/:boardId/tasks/:id', async (req, res) => {
+router.get('/boards/:boardId/tasks/:id', guard, async (req, res) => {
   const { id } = req.params;
   if (id) {
     const task = await tasksService.getById(Number(id)).catch(console.log.bind(console));
@@ -35,7 +36,7 @@ router.get('/boards/:boardId/tasks/:id', async (req, res) => {
   }
 });
 // PUT ID
-router.put('/boards/:boardId/tasks/:id', async (req, res) => {
+router.put('/boards/:boardId/tasks/:id', guard, async (req, res) => {
   const { id } = req.params;
   if (id) {
     const task = await tasksService.putById(req.body, Number(id));
@@ -43,7 +44,7 @@ router.put('/boards/:boardId/tasks/:id', async (req, res) => {
   }
 });
 // DELETE ID
-router.delete('/boards/:boardId/tasks/:id', async (req, res) => {
+router.delete('/boards/:boardId/tasks/:id', guard, async (req, res) => {
   const { id } = req.params;
   if (id) {
     const status = await tasksService.deleteById(Number(id));

@@ -2,7 +2,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 module.exports = {
-  host: process.env['POSTGRES_HOST'] = "postgres",
+  host: process.env['POSTGRES_HOST'],
   type: 'postgres',
   port: Number(process.env['POSTGRES_PORT']),
   username: process.env['POSTGRES_USER'],

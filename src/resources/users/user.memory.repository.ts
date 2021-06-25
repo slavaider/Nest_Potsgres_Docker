@@ -6,8 +6,15 @@ const getAll = async (): Promise<User[]> => {
   const userRepository = getRepository(User);
   return userRepository.find();
 };
+const createAdmin = async (user: User): Promise<User | number> => {
+  const userRepository = getRepository(User);
+  const exist = await userRepository.findOne({login:'admin'});
+  if(exist) return 204
+  const newUser = userRepository.create(user);
+  return  await userRepository.save(newUser);
+};
 
-const createUser = async (user: User): Promise<User> => {
+const createUser = async (user: User): Promise<User | number> => {
   const userRepository = getRepository(User);
   const newUser = userRepository.create(user);
   return  await userRepository.save(newUser);
@@ -38,4 +45,4 @@ const deleteById = async (id: number): Promise<number> => {
   return 404;
 };
 
-export default { getAll, createUser, getById, putById, deleteById };
+export default { getAll, createUser, getById, putById, deleteById,createAdmin };

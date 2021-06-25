@@ -209,3 +209,190 @@ error:[unhandledRejection] EntityColumnNotFound: No entity column "columns" was 
 error:[unhandledRejection] QueryFailedError: update or delete on table "board" violates foreign key constraint "FK_c2d0de90d0477c1956101301c4f" on table "task_column"
 error:[unhandledRejection] Error: Entity metadata for Board#columns was not found. Check if you specified a correct entity object and if it's connected in the connection options.
 error:[unhandledRejection] Error: Entity metadata for Board#columns was not found. Check if you specified a correct entity object and if it's connected in the connection options.
+error:[unhandledRejection] Error: getaddrinfo ENOTFOUND postgres
+error:[unhandledRejection] Error: getaddrinfo ENOTFOUND postgres
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[unhandledRejection] ReferenceError: fetch is not defined
+error:[unhandledRejection] TypeError: Only HTTP(S) protocols are supported
+error:[unhandledRejection] FetchError: request to https://localhost:4000/ failed, reason: write EPROTO 20452:error:1408F10B:SSL routines:ssl3_get_record:wrong version number:c:\ws\deps\openssl\openssl\ssl\record\ssl3_record.c:332:
+
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[undefined] undefined
+error:[unhandledRejection] Error: Illegal arguments: undefined, string
+error:[unhandledRejection] Error: Illegal arguments: undefined, string
+error:[unhandledRejection] Error: Illegal arguments: undefined, string
+error:[unhandledRejection] QueryFailedError: значение NULL в столбце "name" отношения "user" нарушает ограничение NOT NULL
+error:[unhandledRejection] QueryFailedError: значение NULL в столбце "login" отношения "user" нарушает ограничение NOT NULL
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] EntityColumnNotFound: No entity column "error" was found.
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] EntityColumnNotFound: No entity column "error" was found.
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+error:[unhandledRejection] RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+error:[unhandledRejection] RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+error:[unhandledRejection] RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+error:[unhandledRejection] RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+error:[unhandledRejection] RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] EntityColumnNotFound: No entity column "error" was found.
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] EntityColumnNotFound: No entity column "error" was found.
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] QueryFailedError: неверный синтаксис для типа integer: "NaN"
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error:[unhandledRejection] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client

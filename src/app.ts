@@ -5,12 +5,14 @@ import path from 'path';
 import userRouter from './resources/users/user.router';
 import boardRouter from './resources/board/board.router';
 import taskRouter from './resources/task/task.router';
+import loginRouter from './resources/login/login.router';
 import { logger } from './middlewares/logger';
 import { customErrorHandler, errorHandler } from './middlewares/error-handler';
 import Task from './entity/task.model';
 import User from './entity/user.model';
 import Board from './entity/board.model';
 import { createQueryBuilder, getRepository } from 'typeorm';
+
 const app = express();
 const swaggerDocument = YAML.load(path.resolve(__dirname, '../doc/api.yaml'));
 
@@ -45,5 +47,6 @@ app.use('/', (req, res, next) => {
 app.use('/users', userRouter);
 app.use('/boards', boardRouter);
 app.use(taskRouter);
+app.use(loginRouter);
 
 export default app;
