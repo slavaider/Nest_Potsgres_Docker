@@ -23,7 +23,7 @@ router.post('/login', async (req, res, _next) => {
       }
     });
   } else {
-    res.status(404).send('User not found');
+    res.status(401).send('Forbidden');
   }
 });
 
