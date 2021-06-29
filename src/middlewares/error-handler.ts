@@ -1,16 +1,27 @@
-import { log } from './winston-logger';
-import { Response, Request, NextFunction } from 'express';
+import {
+  ExceptionFilter,
+  Catch,
+  ArgumentsHost,
+  HttpException,
+  HttpStatus,
+} from '@nestjs/common';
 
+@Catch()
+export class AllExceptionsFilter implements ExceptionFilter {
+  catch(exception: unknown, host: ArgumentsHost) {
+    const ctx = host.switchToHttp();
+    const response = ctx.getResponse();
+    const request = ctx.getRequest();
 
-export function customErrorHandler(err: Error, errorType:string | Promise<never>): void{
- if(errorType instanceof Promise){
-   log.error(`[unhandledRejection] ${err}`);
- }else{
-    log.error(`[${errorType}] ${err.message}`);
- }
-}
+    const status =
+      exception instanceof HttpException
+        ? exception.getStatus()
+        : HttpStatus.INTERNAL_SERVER_ERROR;
 
-export function errorHandler(err:Error,_req:Request, res:Response,_next:NextFunction):void {
-  log.error(`[${err.name}] ${err.message}`);
-  if(err) res.status(500).render('error',{err});
+    response.status(status).json({
+      statusCode: status,
+      timestamp: new Date().toISOString(),
+      path: request.url,
+    });
+  }
 }

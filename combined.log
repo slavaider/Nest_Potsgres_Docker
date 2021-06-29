@@ -2656,3 +2656,478 @@ LOG:{"METHOD":"PUT","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"B
 LOG:{"METHOD":"DELETE","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
 LOG:{"METHOD":"DELETE","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
 LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards/89/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/54","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/89/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/54","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/89/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/88","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks/44","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/users/55","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards/89/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/90","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"PUT","URL":"/users/56","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"56"}}
+LOG:{"METHOD":"DELETE","URL":"/boards/89/tasks/104","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/users/56","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/89/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/91","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"id":"91","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}],"title":"Autotest updated board"}}
+LOG:{"METHOD":"DELETE","URL":"/users/56","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/boards/89/tasks/105","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"order":0,"boardId":"89","columnId":null,"userId":null,"title":"Autotest updated task","description":"Lorem ipsum","id":"105"}}
+LOG:{"METHOD":"GET","URL":"/boards/89/tasks/105","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/57","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/89/tasks/103","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/boards/89/tasks/103","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/91","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/boards/89/tasks/103","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/91","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/89","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/92/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"58","boardId":"92"}}
+LOG:{"METHOD":"POST","URL":"/boards/92/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"58","boardId":"92"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/users/58","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/93","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/94/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"94","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/94/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"94","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/94/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"94","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/94/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"94","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/94/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"94","userId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/boards/94/tasks/108","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/94/tasks/109","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/94/tasks/110","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/94/tasks/111","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/94/tasks/112","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/94","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/88","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/123","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/95","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/96","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/97/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/98","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"id":"98","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}],"title":"Autotest updated board"}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/97/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/97/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/undefined/tasks/44","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/59","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/98","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/59","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/97/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/98","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/boards/97/tasks/114","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/97/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/99","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/60","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"PUT","URL":"/boards/97/tasks/115","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"order":0,"boardId":"97","columnId":null,"userId":null,"title":"Autotest updated task","description":"Lorem ipsum","id":"115"}}
+LOG:{"METHOD":"GET","URL":"/boards/99","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/97/tasks/115","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/boards/97/tasks/113","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"PUT","URL":"/users/61","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"61"}}
+LOG:{"METHOD":"DELETE","URL":"/boards/97/tasks/113","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/61","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/97/tasks/113","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/61","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/100/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"100","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/100/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"100","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/100/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"100","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/100/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"100","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/100/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"100","userId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/97","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/62","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/boards/101/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"63","boardId":"101"}}
+LOG:{"METHOD":"POST","URL":"/boards/101/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"63","boardId":"101"}}
+LOG:{"METHOD":"GET","URL":"/boards/100/tasks/116","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/100/tasks/119","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/100/tasks/117","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/100/tasks/118","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/100/tasks/120","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/100","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/63","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/100/tasks/116","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/100/tasks/119","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/100/tasks/117","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/100/tasks/118","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/100/tasks/120","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/95","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/101/tasks/121","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/101/tasks/122","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/101/tasks/121","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/101/tasks/122","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/101","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/123","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","name":"admin","password":"admin","secretPass":"secret-key"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"POST","URL":"/login","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"login":"admin","password":"admin"}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/users/2","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/2","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/2/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/3","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/1","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/2/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/2/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/boards/2/tasks/1","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"POST","URL":"/boards/2/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/3","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"PUT","URL":"/users/4","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"4"}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/2/tasks/2","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/4","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"PUT","URL":"/boards/4","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"id":"4","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}],"title":"Autotest updated board"}}
+LOG:{"METHOD":"POST","URL":"/boards/2/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/users/4","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/boards/2/tasks/3","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"order":0,"boardId":"2","columnId":null,"userId":null,"title":"Autotest updated task","description":"Lorem ipsum","id":"3"}}
+LOG:{"METHOD":"GET","URL":"/boards/2/tasks/3","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/5","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/4","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/2/tasks/1","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/2/tasks/1","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/4","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"GET","URL":"/boards/2/tasks/1","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/2","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/5","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/6/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"6","boardId":"6"}}
+LOG:{"METHOD":"POST","URL":"/boards/6/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"6","boardId":"6"}}
+LOG:{"METHOD":"GET","URL":"/boards/5","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/users/6","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"GET","URL":"/boards/6/tasks/5","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/7/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"7","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/7/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"7","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/7/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"7","userId":null,"columnId":null}}
+LOG:{"METHOD":"POST","URL":"/boards/7/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"7","userId":null,"columnId":null}}
+LOG:{"METHOD":"GET","URL":"/boards/6/tasks/4","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/7/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"7","userId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/6/tasks/4","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/6/tasks/5","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/7/tasks/8","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/7/tasks/9","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/7/tasks/6","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/7/tasks/7","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/7/tasks/10","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/6","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/7","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/7/tasks/6","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/7/tasks/8","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/7/tasks/9","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/7/tasks/7","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/7/tasks/10","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"DELETE","URL":"/boards/1","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/users/123","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/users","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"PUT","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+LOG:{"METHOD":"DELETE","URL":"/users/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"GET","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
+LOG:{"METHOD":"POST","URL":"/boards/12345/tasks","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"PUT","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+LOG:{"METHOD":"DELETE","URL":"/boards/12345/tasks/12345","STATUS":200,"QUERY":{},"PARAMS":{},"BODY":{}}
