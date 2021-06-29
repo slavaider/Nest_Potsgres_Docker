@@ -1,14 +1,17 @@
 import boardsRepo from './board.memory.repository';
-import Board from '../../entity/board.model';
+import Board from '../../entity/board.entity';
 
-const getAll = ():Promise<Board[]> => boardsRepo.getAll();
+import { Injectable } from '@nestjs/common';
 
-const createBoard = (board: Board):Promise<Board> => boardsRepo.createBoard(board);
+@Injectable()
+export class BoardService {
+  getAll = ():Promise<Board[]> => boardsRepo.getAll();
 
-const getById = (id: number):Promise<number | Board | undefined> => boardsRepo.getById(id);
+  createBoard = (board: Board):Promise<Board> => boardsRepo.createBoard(board);
 
-const putById = (newBoard: Board, id: number):Promise<Board | undefined> => boardsRepo.putById(newBoard, id);
+  getById = (id: number):Promise<number | Board | undefined> => boardsRepo.getById(id);
 
-const deleteById = (id:number):Promise<number> => boardsRepo.deleteById(id);
+  putById = (newBoard: Board, id: number):Promise<Board | undefined> => boardsRepo.putById(newBoard, id);
 
-export default { getAll, createBoard, getById, putById, deleteById };
+  deleteById = (id:number):Promise<number> => boardsRepo.deleteById(id);
+}

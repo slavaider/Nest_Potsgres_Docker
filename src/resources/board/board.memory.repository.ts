@@ -1,7 +1,7 @@
-import taskService from '../task/task.service';
-import Board from '../../entity/board.model';
+import  TaskRepository from '../task/task.memory.repository';
+import Board from '../../entity/board.entity';
 import { getRepository } from 'typeorm';
-import TaskColumn from '../../entity/column.model';
+import TaskColumn from '../../entity/column.entity';
 
 const getAll = async (): Promise<Board[]> => {
   const boardRepository = getRepository(Board);
@@ -51,7 +51,7 @@ const deleteById = async (id: number): Promise<number> => {
   const boardRepository = getRepository(Board);
   const board = await boardRepository.findOne(id);
   if (board) {
-    await taskService.deleteBoard(id);
+    await TaskRepository.deleteBoard(id);
     await boardRepository.delete(id);
     return 204;
   }

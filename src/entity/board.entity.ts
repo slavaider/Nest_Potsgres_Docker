@@ -1,4 +1,4 @@
-import TaskColumn from './column.model';
+import TaskColumn from './column.entity';
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity({name: 'board'})
