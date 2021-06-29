@@ -1,11 +1,13 @@
-import User from '../../entity/user.model';
+import User from '../../entity/user.entity';
 import { getRepository } from 'typeorm';
-import taskService from '../task/task.service';
+import TaskRepository from '../task/task.memory.repository';
+
 
 const getAll = async (): Promise<User[]> => {
   const userRepository = getRepository(User);
   return userRepository.find();
 };
+
 const createAdmin = async (user: User): Promise<User | number> => {
   const userRepository = getRepository(User);
   const exist = await userRepository.findOne({login:'admin'});
@@ -38,7 +40,7 @@ const deleteById = async (id: number): Promise<number> => {
   const userRepository = getRepository(User);
   const user = await userRepository.findOne(id);
   if (user) {
-    await taskService.deleteUser(id);
+    await TaskRepository.deleteUser(id);
     await userRepository.delete(id);
     return 204;
   }

@@ -1,18 +1,20 @@
-import User from '../../entity/user.model';
+import User from '../../entity/user.entity';
 
 import  usersRepo from './user.memory.repository';
+import { Injectable } from '@nestjs/common';
 
-const getAll = ():Promise<User[]> => usersRepo.getAll();
+@Injectable()
+export class UserService {
+  getAll = ():Promise<User[]> => usersRepo.getAll();
 
-const createUser = (user: User):Promise<User | number> => usersRepo.createUser(user);
+  createUser = (user: User):Promise<User | number> => usersRepo.createUser(user);
 
-const createAdmin = (user: User):Promise<User | number> => usersRepo.createAdmin(user);
+  createAdmin = (user: User):Promise<User | number> => usersRepo.createAdmin(user);
 
-const getById = (id: number):Promise<User|undefined> => usersRepo.getById(id);
+  getById = (id: number):Promise<User|undefined> => usersRepo.getById(id);
 
-const putById = (newUser: User, id: number):Promise<User|undefined> => usersRepo.putById(newUser, id);
+  putById = (newUser: User, id: number):Promise<User|undefined> => usersRepo.putById(newUser, id);
 
-const deleteById = (id: number): Promise<number> => usersRepo.deleteById(id);
-
-export default { getAll, createUser, getById, putById, deleteById,createAdmin };
+  deleteById = (id: number): Promise<number> => usersRepo.deleteById(id);
+}
 
