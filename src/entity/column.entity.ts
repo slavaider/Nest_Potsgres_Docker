@@ -1,5 +1,5 @@
 import { Column, Entity, ManyToOne,PrimaryGeneratedColumn } from 'typeorm';
-import Board from './board.model';
+import Board from './board.entity';
 @Entity({name: 'column'})
 class TaskColumn {
   @PrimaryGeneratedColumn()

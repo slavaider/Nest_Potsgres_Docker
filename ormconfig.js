@@ -1,4 +1,5 @@
 const dotenv = require('dotenv');
+const path = require('path');
 dotenv.config();
 
 module.exports = {
@@ -12,10 +13,8 @@ module.exports = {
   extra: {
     ssl: false
   },
-  entities: ["src/entity/*.ts"],
-  migrations: ["src/migration/*.ts"],
+  entities: [path.join(__dirname, '..', 'src/entity/*.{ts,js}')],
   cli: {
-    "entitiesDir": "src/entity",
-    "migrationsDir": "src/migration",
+    "entitiesDir": "src/entity"
   }
 };

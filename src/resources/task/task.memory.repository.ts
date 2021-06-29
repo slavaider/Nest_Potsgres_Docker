@@ -1,4 +1,4 @@
-import Task from '../../entity/task.model';
+import Task from '../../entity/task.entity';
 import { getRepository } from 'typeorm';
 
 const getAll = async (): Promise<Task[]> => {
